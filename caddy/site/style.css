@@ -1,0 +1,225 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+nav {
+    background-color: #eee;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 5px 5px grey;
+    width: 100%;
+}
+
+#container {
+    padding-top: 60px;
+}
+
+.nav_container {
+    display: grid;
+    grid-template-rows: 80px;
+    grid-template-columns: 1fr 5fr 6fr;
+    grid-template-areas: "logo spacer links";
+    height: 80px;
+    width: 75%;
+    margin: auto;
+}
+
+.logo {
+    grid-area: logo;
+    height: 85%;
+    align-self: center;
+    justify-self: center;
+}
+
+div.vertical-line{
+    width: 1px;
+    background-color: black;
+    height: 90%;
+    justify-self: center;
+    align-self: center;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+    margin-top: 1em;
+    grid-area: map;
+}
+
+.links {
+    grid-area: links;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mover {
+    font-size: 1.0em;
+    font-family: 'Raleway', sans-serif;
+    justify-self: center;
+    color: #555;
+    align-self: center;
+    text-decoration: none;
+}
+
+.mover:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    background-color: white;
+    height: 100%;
+}
+
+#image2 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: block;
+    z-index: 0;
+}
+
+#image1 {
+    display: block;
+    width: 100%;
+    z-index: 0;
+}
+
+.imageofsky {
+    width: 100%;
+    grid-area: image;
+}x
+
+#contact {
+/*     background-color: #84C9D4; */
+    font-family: 'Raleway', sans-serif;
+/*     margin-top: -20px; */
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+.contact_content {
+    display: grid;
+    grid-template-areas: "left line right map";
+    grid-template-columns: 3fr 0.001fr 3fr 3fr;
+    width: 75%;
+    margin: auto;
+}
+
+.conCol {
+    padding-left: 5%;
+    padding-right: 1em;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contact p {
+    font-size: 1em;
+}
+
+.contact_header {
+    font-weight: bold;
+    font-size: 2.1em;
+    font-family: 'Righteous', sans-serif;
+    font-variant: small-caps;
+}
+
+#about {
+    background-color: #eee;
+    height: 100%;
+    margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.about_content {
+    width: 75%;
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'Raleway';
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 6fr 0.001fr 3fr;
+    grid-template-areas: "content line image";
+}
+
+.about_header {
+    font-weight: bold;
+    font-size: 2.1em;
+    font-family: 'Righteous', sans-serif;
+    font-variant: small-caps;
+}
+
+.about_column {
+    padding-left: 2em;
+    padding-right: 1em;
+    grid-area: content;
+}
+
+#about_column2 {
+    grid-area: image;
+    margin-top: 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+    .about_content {
+        grid-template-rows: auto 0.5fr auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: "content"
+                             "line"
+                            "image";
+        width: 95%;
+    }
+    
+    #about_column2 {
+        grid-area: image;
+        margin-top: 0.5em;
+    }
+    
+    #about_column {
+        grid-area: content;
+    }
+    
+    div.vertical-line{
+        width: 95%;
+        background-color: black;
+        height: 1px;
+        justify-self: center;
+        align-self: center;
+        grid-area: line;
+    }
+    
+    
+    .contact_content {
+        grid-template-areas: "left"
+                             "line"
+                             "right"
+                             "map";
+        grid-template-rows: auto 0.001fr auto auto;
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    
+    #contact_column2 {
+        grid-area: right;
+    }
+    
+    #contact_column {
+        grid-area: left;
+    }
+    
+    .links {
+        display: none;
+    }
+    
+    .nav_container {
+        grid-template-columns: 1fr;
+        grid-template-areas: "logo";
+    }
+    
+}

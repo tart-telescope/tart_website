@@ -1,0 +1,38 @@
+version: '2'
+
+services:
+    caddy:
+        image: caddy:2.4.5
+        restart: unless-stopped
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - $PWD/Caddyfile:/etc/caddy/Caddyfile
+            - $PWD/site:/srv
+            - $PWD/html:/srvviewer
+            - /home/tart/ops/object_position_server/app/doc:/doc
+            - caddy_data:/data
+            - caddy_config:/config
+
+        extra_hosts:
+            - "host.docker.internal:172.17.0.1"
+        logging:
+            driver: "json-file"
+            options:
+                max-file: "5"
+                max-size: "1m"
+
+
+    #viewer:
+    #    image: nginx:1.21.6
+    #    restart: unless-stopped
+    #    volumes:
+    #        - $PWD/html:/usr/share/nginx/html
+
+
+volumes:
+    caddy_data:
+        external: true
+    caddy_config:
+
