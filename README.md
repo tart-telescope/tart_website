@@ -1,2 +1,2 @@
 # website
-Website for tart.elec.a.cnz
+Website for tart.elec.ac.nz
