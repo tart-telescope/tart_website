@@ -98,7 +98,7 @@ const config = {
               },
               {
                 label: 'Instagram',
-                href: https://www.instagram.com/tmolteno/',
+                href: 'https://www.instagram.com/tmolteno/',
               },
             ],
           },
