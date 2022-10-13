@@ -9,7 +9,7 @@ const config = {
   title: 'TART',
   tagline: 'Transient Array Radio Telescope',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/tart_website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'TART',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'TART Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TART-Telescope Project. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
