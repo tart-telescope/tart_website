@@ -6,11 +6,14 @@ sidebar_position: 1
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## Getting Started with the TART API
 
 Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+One doesn't need a login to capture data from the telescopes. The authentication is only need for API requests that modify the telescope properties (like uploading calibration gains and phases).THe API for the telescope is documented online (https://tart.elec.ac.nz/signal/doc/) and shows the restful API calls that can be made.
+To get imaging data try the (https://tart.elec.ac.nz/signal/doc/#api-Imaging-get_latest_vis)
+    wget -O test.json  https://tart.elec.ac.nz/signal/api/v1/imaging/vis
+This will download the latest visibilties into a file called test.json
 
 ### What you'll need
 
