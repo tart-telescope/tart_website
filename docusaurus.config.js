@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'TART',
   tagline: 'Transient Array Radio Telescope',
-  url: 'https://tart.elec.ac.nz/docs',
+  url: 'https://tart.elec.ac.nz/',
   baseUrl: '/tart_website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
