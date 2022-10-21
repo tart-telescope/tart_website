@@ -1,0 +1,17 @@
+# The TART API
+
+One doesn't need a login to capture data from the telescopes. The authentication is only need for API requests that modify the telescope properties (like uploading calibration gains and phases).THe API for the telescope is documented online (https://tart.elec.ac.nz/signal/doc/) and shows the restful API calls that can be made.
+
+To get imaging data we will call the [imaging/vis](https://tart.elec.ac.nz/signal/doc/#api-Imaging-get_latest_vis) endpoint.
+
+```
+wget -O test.json  https://tart.elec.ac.nz/signal/api/v1/imaging/vis
+```
+
+This will request the ```imaing/vis``` API endpoint, and the returned data will contain the latest visibilties. These are then saved into a file called test.json
+
+Try this in your browser by [clicking here](https://tart.elec.ac.nz/signal/api/v1/imaging/vis)
+
+## API documentation
+
+API documentation is available here: https://tart.elec.ac.nz/signal/docs
