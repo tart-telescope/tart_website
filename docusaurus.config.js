@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'TART',
   tagline: 'Transient Array Radio Telescope',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://tart.elec.ac.nz/docs',
   baseUrl: '/tart_website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/tart-telescope/tart_website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/tart-telescope/tart_website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -52,6 +52,7 @@ const config = {
       }),
     ],
   ],
+  favicon: '/img/favicon.svg',
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
