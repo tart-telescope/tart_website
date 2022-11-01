@@ -4,7 +4,13 @@ sidebar_position: 2
 
 # Getting data from TART
 
-One doesn't need a login to capture data from the telescopes.
+Each telescope can be queried for data using the telescope API (API)
+
+:::tip Authentication
+
+One doesn't need a login to capture data from a TART telescope. 
+
+:::
 
 ## Using the API directly
 
