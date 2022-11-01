@@ -30,3 +30,50 @@ You can install the tart2ms python package which will give you some command line
 tart2ms --ms obs.ms --api https://tart.elec.ac.nz/signal
 
 
+## From S3 bucket
+
+Visibility and Raw data can also be downloaded from the S3 Cache (most recent 30days only).
+
+
+### Install requirements
+```pip3 install minio tqdm```
+
+### Fetch via MinIO
+
+```python
+import os
+from tqdm import tqdm
+from minio import Minio
+
+MINIO_API_HOST = "s3.max.ac.nz"
+BUCKET_NAME = "tart-hdf"
+
+# prefix = 'rhodes/raw/2022/'
+# prefix = 'rhodes/vis/2022/'
+# prefix = 'signal/raw/2022/'
+prefix = 'signal/vis/2022/'
+
+output = 'downloads/'
+
+limit_last_10 = -10     # Only fetch the last 10 entries files
+
+
+if __name__ == "__main__":
+    if not os.path.exists(output):
+        os.mkdir(output)
+
+    client = Minio(MINIO_API_HOST, secure=True)
+    objects = client.list_objects(BUCKET_NAME, prefix=prefix, recursive=True)
+
+
+    for item in tqdm(list(objects)[limit_last_10:]):
+        fname_out = f'{output}{item.object_name}'
+        client.fget_object(BUCKET_NAME, item.object_name, fname_out)
+        print(fname_out)
+```
+
+Follow up by creating a measurement set from selected or all hdf files
+
+```
+tart2ms  --hdf downloads/*/vis/*/*/*/*.hdf --telescope_name 'kat-7'
+```
