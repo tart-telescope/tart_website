@@ -15,3 +15,8 @@ Try this in your browser by [clicking here](https://tart.elec.ac.nz/signal/api/v
 ## API documentation
 
 API documentation is available here: https://tart.elec.ac.nz/signal/docs
+
+
+## The source catalogue
+
+There is an online API for getting source positions in the GPS sky. It is documented at (https://tart.elec.ac.nz/catalog/doc/index.html)
