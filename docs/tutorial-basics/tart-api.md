@@ -1,6 +1,6 @@
 # The TART API
 
-One doesn't need a login to capture data from the telescopes. The authentication is only need for API requests that modify the telescope properties (like uploading calibration gains and phases).THe API for the telescope is documented online (https://tart.elec.ac.nz/signal/doc/) and shows the restful API calls that can be made.
+One doesn't need a login to capture data from the telescopes. The authentication is only need for API requests that modify the telescope properties (like uploading calibration gains and phases). The API for the telescope is documented online (https://tart.elec.ac.nz/signal/doc/) and shows the restful API calls that can be made.
 
 To get imaging data we will call the [imaging/vis](https://tart.elec.ac.nz/signal/doc/#api-Imaging-get_latest_vis) endpoint.
 
@@ -15,3 +15,10 @@ Try this in your browser by [clicking here](https://tart.elec.ac.nz/signal/api/v
 ## API documentation
 
 API documentation is available here: https://tart.elec.ac.nz/signal/docs
+
+
+## The source catalogue
+
+There is an online API for getting source positions in the GPS sky. It is documented at (https://tart.elec.ac.nz/catalog/doc/index.html)
+
+Here is a [link to the current objects above signal hill](https://tart.elec.ac.nz/catalog/catalog?lat=-45.85&lon=170.54)

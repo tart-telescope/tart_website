@@ -2,16 +2,13 @@
 sidebar_position: 1
 ---
 
-# TART Intro
+# TART Présentation
 
-Let's discover **TART in less than 5 minutes**. The TART is an aperture synthesis radio telescope, it uses 24 radio receivers to create images of the radio sky at 1.575 GHz.
+Découvrons **TART en moins de 5 minutes**. Le TART est un radiotélescope à synthèse d'ouverture, il utilise 24 récepteurs radio pour créer des images du ciel radio à 1,575 GHz.
 
-## Getting Started with the TART API
+## Premiers pas avec l'API TART
 
-Get started by **creating a new site**.
-
-One doesn't need a login to capture data from the telescopes. The authentication is only need for API requests that modify the telescope properties (like uploading calibration gains and phases).THe API for the telescope is documented online (https://tart.elec.ac.nz/signal/doc/) and shows the restful API calls that can be made.
-To get imaging data try the (https://tart.elec.ac.nz/signal/doc/#api-Imaging-get_latest_vis)
-    wget -O test.json  https://tart.elec.ac.nz/signal/api/v1/imaging/vis
-This will download the latest visibilties into a file called test.json
-
+Il n'est pas nécessaire de se connecter pour capturer les données des télescopes. L'authentification n'est nécessaire que pour les requêtes API qui modifient les propriétés du télescope (comme le téléchargement des gains et des phases d'étalonnage). L'API du télescope est documentée en ligne (https://tart.elec.ac.nz/signal/doc/) et montre les appels d'API reposants qui peuvent être effectués.
+Pour obtenir des données d'imagerie, essayez le (https://tart.elec.ac.nz/signal/doc/#api-Imaging-get_latest_vis)
+wget -O test.json  https://tart.elec.ac.nz/signal/api/v1/imaging/vis
+Cela téléchargera les dernières visibilités dans un fichier appelé test.json
