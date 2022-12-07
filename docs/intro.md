@@ -10,5 +10,19 @@ The Transient Array Radio Telescope (TART) is an aperture synthesis radio telesc
 
 ## The telescope web interface
 
-Each TART telescope has a web interface. [Signal TART Web Interface](https://tart.elec.ac.nz/signal/home).
+Each TART telescope has a web interface. These are web applications that get data from the  [TART web API](./tutorial-basics/tart-api) and create images and allow you to control the telescope. Here is the web interface for the [Dunedin New Zealand TART](https://tart.elec.ac.nz/signal/home).
+
+## The components of a TART telescope
+
+A TART consists of 24 radio receivers (mounted on radio modules), arranged in groups of 6 into a radio hub. These radio hubs are connected to the baststation. All of the data from the telescope is processed on the basestation and made available via the [TART web API](./tutorial-basics/tart-api).
+
+## Using the tart tools
+
+There are some command line tools available as part of the [tart_tools python package](https://github.com/tart-telescope/tart_modules). These command line tools let you do things like downloading data, creating images e.t.c.
+
+
+## Creating Images
+
+You can use command-line tools and more to create images from the TART telescope. These are described  [Making Images](./tutorial-basics/making-images).
+
 
