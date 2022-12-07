@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktart_website=self.webpackChunktart_website||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Messages r\xe9cents","items":[{"title":"Faits saillants du projet TART\xa02022","permalink":"/tart_website/fr/blog/tart-2022-progress"}]}')}}]);
