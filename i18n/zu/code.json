@@ -264,5 +264,20 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Easy to use": {
+    "message": "Easy to use"
+  },
+  "Focus on what matters": {
+    "message": "Focus on what matters"
+  },
+  "Collaborate": {
+    "message": "Collaborate"
+  },
+  "TART was designed from the ground up to be easily installed and used to get your radio astronomy projects up and running quickly.": {
+    "message": "TART was designed from the ground up to be easily installed and used to get your radio astronomy projects up and running quickly."
+  },
+  "The TART team on has an array of interesting research projects at all levels from citizen science through undergraduate, to M.Sc and Ph.D projects. New members are welcome, and we can help with joint supervision of student projects with one of the partner insitutions.": {
+    "message": "The TART team on has an array of interesting research projects at all levels from citizen science through undergraduate, to M.Sc and Ph.D projects. New members are welcome, and we can help with joint supervision of student projects with one of the partner insitutions."
   }
 }

@@ -2,7 +2,7 @@
 sidebar_position : 1
 ---
 
-# Tarte Intro
+# TART Intro
 
 Découvrons **TART en moins de 5 minutes**.
 
@@ -16,7 +16,7 @@ Chaque télescope TART possède une interface web. Ce sont des applications Web 
 
 Un TART se compose de 24 récepteurs radio (montés sur des modules radio), disposés par groupes de 6 dans un hub radio. Ces hubs radio sont connectés au baststation. Toutes les données du télescope sont traitées sur la station de base et mises à disposition via l'[API Web TART](./tutorial-basics/tart-api).
 
-## Utiliser les outils de tarte
+## Utiliser les outils de TART
 
 Certains outils de ligne de commande sont disponibles dans le cadre du [paquet python tart_tools](https://github.com/tart-telescope/tart_modules). Ces outils de ligne de commande vous permettent de télécharger des données, de créer des images, etc.
 

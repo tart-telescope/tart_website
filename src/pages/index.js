@@ -9,6 +9,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -33,7 +34,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="<Translate>Transient Array Radio Telescope Documentation</Translate>">
+      description="Transient Array Radio Telescope Documentation">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

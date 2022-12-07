@@ -2,33 +2,39 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
+import Translate, {translate} from '@docusaurus/Translate';
+
+const easy_to_use = {id: 'easy_to_use', title: <Translate>Easy to use</Translate>}
+const focus_matters = {id: 'focus_matters', title: <Translate>Focus on what matters</Translate>}
+const collaborate = {id: 'collaborate', title: <Translate>Collaborate</Translate>}
+
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: easy_to_use.title,
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        TART was designed from the ground up to be easily installed and
-        used to get your radio astronomy projects up and running quickly.
+        <Translate>TART was designed from the ground up to be easily installed and
+        used to get your radio astronomy projects up and running quickly.</Translate>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: focus_matters.title,
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         TART lets you modify, access and explore every part of a modern aperture
-        synthesis radio telescope. Raw data can be examined, the array layout modified and more..
+        synthesis radio telescope. Raw data can be examined, the array layout modified and more.
       </>
     ),
   },
   {
-    title: 'Collaborate',
+    title: collaborate.title,
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        The TART team on has an array of interesting research projects at all levels from citizen science through undergraduate, to M.Sc and Ph.D projects. New members are welcome, and we can help with joint supervision of student projects with one of the partner insitutions. 
+        <Translate>The TART team on has an array of interesting research projects at all levels from citizen science through undergraduate, to M.Sc and Ph.D projects. New members are welcome, and we can help with joint supervision of student projects with one of the partner insitutions.</Translate>
       </>
     ),
   },

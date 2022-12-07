@@ -1,6 +1,6 @@
 ---
 slug: tart-2022-progress
-title: TART project 2022
+title: TART project 2022 highlights
 authors: [tcam]
 tags: [calibration]
 # Display h2 to h5 headings

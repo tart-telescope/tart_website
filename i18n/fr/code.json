@@ -264,5 +264,20 @@
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "message": "Ouvrir/fermer la barre de navigation",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "TART was designed from the ground up to be easily installed and used to get your radio astronomy projects up and running quickly.": {
+    "message": "TART a été conçu dès le départ pour être facilement installé et utilisé pour que vos projets de radioastronomie soient opérationnels rapidement."
+  },
+  "The TART team on has an array of interesting research projects at all levels from citizen science through undergraduate, to M.Sc and Ph.D projects. New members are welcome, and we can help with joint supervision of student projects with one of the partner insitutions.": {
+    "message": "L'équipe TART a un éventail de projets de recherche intéressants à tous les niveaux, de la science citoyenne au premier cycle, en passant par les projets de maîtrise et de doctorat. Les nouveaux membres sont les bienvenus et nous pouvons aider à la cotutelle de projets étudiants avec l'une des institutions partenaires."
+  },
+  "Easy to use": {
+    "message": "Facile à utiliser"
+  },
+  "Focus on what matters": {
+    "message": "Concentrez-vous sur ce qui compte"
+  },
+  "Collaborate": {
+    "message": "Collaborer"
   }
 }
