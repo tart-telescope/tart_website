@@ -5,6 +5,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import Translate, {translate} from '@docusaurus/Translate';
+
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -18,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            TART Tutorial - 5min ⏱️
+            <Translate>TART Overview</Translate> - 5min ⏱️
           </Link>
         </div>
       </div>
@@ -31,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Transient Array Radio Telescope Documentation">
+      description="<Translate>Transient Array Radio Telescope Documentation</Translate>">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

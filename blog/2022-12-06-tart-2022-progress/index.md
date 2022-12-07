@@ -3,11 +3,15 @@ slug: tart-2022-progress
 title: TART project 2022
 authors: [tcam]
 tags: [calibration]
+# Display h2 to h5 headings
+toc_min_heading_level: 2
+toc_max_heading_level: 5
 ---
 
-## Highlights of 2022 
+# Highlights of 2022
 
-The TART project has had a lot to celebrate in 2022. What follows is a brief summary of events.
+The TART project has had a lot to celebrate in 2022. What follows is a brief summary of events that took place.
+
 
 ## Team Expansion
 
@@ -51,7 +55,8 @@ We began the process of moving the github repositories to a new home (https://gi
 Huge work by Ben Hugo on making the TART measurement set tools [tart2ms](https://github.com/tart-telescope/tart2ms). These have allowed some fantastic features:
 
 * Rephasing of observations into a single measurement set.
-* Incorporation of Catalogue in JSON and 
+* Incorporation of Catalogue in JSON into the measurement set.
+* This allows potentially much more sensitive imaging!
 
 ## CASA calibration
 
@@ -63,7 +68,7 @@ Rhodes Calibration with CASA             |  Cal phase vs time
 
 Three TART workshops are now in various stages of preparation. 
 
-* Jan 17: Breakthrough listen @ Rhodes (Ben, Oleg)
+* Jan 16-17: Breakthrough listen @ Rhodes (Stanley, Ben, Oleg)
 * Mid 2023: Gabon (Patrice)
 * Mid 2023: Ghana (Stanley)
 
