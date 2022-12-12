@@ -17,7 +17,7 @@ The TART project has had a lot to celebrate in 2022. What follows is a brief sum
 
 We've had a good deal of expansion. The TART project has three teams
 
-* Rhodes: Sonia, Rickus*, Stanley, Oleg, Patrice
+* Rhodes: Sonia, Ben, Rickus*, Stanley, Oleg, Patrice
 * SARAO: Ben, Oleg, Ruby, Nadeem
 * Stellenbosch: Rikus, Danie
 * New Zealand: Tim, Phill, Max
