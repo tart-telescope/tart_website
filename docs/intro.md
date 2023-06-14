@@ -14,7 +14,9 @@ Each TART telescope has a web interface. These are web applications that get dat
 
 ## The components of a TART telescope
 
-A TART consists of 24 radio receivers (mounted on radio modules), arranged in groups of 6 into a radio hub. These radio hubs are connected to the baststation. All of the data from the telescope is processed on the basestation and made available via the [TART web API](./tutorial-basics/tart-api).
+A TART consists of 24 radio receivers (mounted on radio modules), each with an antenna arranged in an array. These radio hubs are connected to the baststation. Further information on the [TART hardware](./tutorial-basics/hardware) page.
+
+All of the data from the telescope is processed on the basestation and made available via the [TART web API](./tutorial-basics/tart-api).
 
 ## Using the tart tools
 
