@@ -46,7 +46,7 @@ TART-2 consisted of 4 radio hubs with 6 recievers on each hub. These connected v
 Costings are difficult to estimate as this is a new version of hardware and development is not complete. We are hoping to achieve manufacturing costs of approximately 500 euro for the telescope bare electronics. The antenna array assembly is usually fabricated on-site from available materials. 
 
 Some extimates are below not including and freight charges:
-* Electronics electronics: ~EUR 500.
+* Electronics electronics: ~EUR 500. Electronics will be made availeble on request from the New Zealand hardware team (see below for a potential other avenue). 
 * 24 GPS patch antennas with 3m cables: ~EUR 150
 * Case and Housing: Done on site: Allow ~EUR 100 (not including labour)
 * Antenna array. Done on site, and costs will vary wideley as most of the costs are labour.  Can range for ~EUR 100 (using scrap and volunteer labour) to much more.
