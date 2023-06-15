@@ -51,4 +51,8 @@ Some extimates are below not including and freight charges:
 * Case and Housing: Done on site: Allow ~EUR 100 (not including labour)
 * Antenna array. Done on site, and costs will vary wideley as most of the costs are labour.  Can range for ~EUR 100 (using scrap and volunteer labour) to much more.
 
-Note: There is a project being formed to provide TART telescopes for purchase.
+### TART-in-a-box
+
+The TART-in-a-box project aims to provide universities with a comprehensive package containing the TART hardware and software, along with teaching materials, to facilitate the implementation of radio astronomy education and promotion of STEM. The TART is an affordable open-source telescope array designed to train and educate students in tertiary and secondary levels. The project demonstrates the calibration and imaging of GNSS constellations using TART and relevant software. The project aligns with various United Nations Sustainable Development Goals (UN-SDGs), including quality education, gender equality, poverty reduction, and industry innovation, recognizing education as a crucial global industry for socio-economic development.
+
+The project is sponsored by the South African Radio Astronomy (SARA) Starbizz initiative.
