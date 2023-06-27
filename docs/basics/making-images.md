@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Creating images in TART is requires three things
 
-* Some [calibrated](/docs/tutorial-extras/calibration) TART data
+* Some [calibrated](/docs/advanced/calibration) TART data
 * Some imaging software
 
 ## Using the TART web interface
