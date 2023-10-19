@@ -1,5 +1,5 @@
 # Website
-Markdown repo for the 2022 TART website to be hosted at https://tart.elec.ac.nz
+Markdown repo for the new TART website to be hosted at https://tart.elec.ac.nz
 
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.

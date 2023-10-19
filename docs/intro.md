@@ -2,6 +2,9 @@
 sidebar_position: 1
 ---
 
+import Carousel from '@site/src/components/Carousel';
+
+
 # TART Intro
 
 Let's discover **TART in less than 5 minutes**.

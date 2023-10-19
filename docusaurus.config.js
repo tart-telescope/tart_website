@@ -9,7 +9,7 @@ const config = {
   title: 'TART',
   tagline: 'Transient Array Radio Telescope',
   url: 'https://tart.elec.ac.nz/',
-  baseUrl: '/tart_website/',
+  baseUrl: '/doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -23,7 +23,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'fr', 'af', 'sw', 'xh', 'zu'],
+    locales: ['en', 'fr', 'af', 'sw', 'xh', 'zu', 'pt'],
   },
 
   presets: [
