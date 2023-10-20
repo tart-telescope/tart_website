@@ -46,13 +46,12 @@ TART-2 consisted of 4 radio hubs with 6 recievers on each hub. These connected v
 Costings are difficult to estimate as this is a new version of hardware and development is not complete. We are hoping to achieve manufacturing costs of approximately 500 euro for the telescope bare electronics. The antenna array assembly is usually fabricated on-site from available materials. 
 
 Some extimates are below not including and freight charges:
-* Electronics electronics: ~EUR 500. Electronics will be made availeble on request from the New Zealand hardware team (see below for a potential other avenue). 
-* 24 GPS patch antennas with 3m cables: ~EUR 150
+* Electronics and antennas: Electronics can be made available to groups working on hardware and correlators on request from the New Zealand hardware team (see below for a potential other avenue). 
 * Case and Housing: Done on site: Allow ~EUR 100 (not including labour)
 * Antenna array. Done on site, and costs will vary wideley as most of the costs are labour.  Can range for ~EUR 100 (using scrap and volunteer labour) to much more.
 
-### TART-in-a-box
+### Getting TART hardware
 
-The TART-in-a-box project aims to provide universities with a comprehensive package containing the TART hardware and software, along with teaching materials, to facilitate the implementation of radio astronomy education and promotion of STEM. The TART is an affordable open-source telescope array designed to train and educate students in tertiary and secondary levels. The project demonstrates the calibration and imaging of GNSS constellations using TART and relevant software. The project aligns with various United Nations Sustainable Development Goals (UN-SDGs), including quality education, gender equality, poverty reduction, and industry innovation, recognizing education as a crucial global industry for socio-economic development.
-
-The project is sponsored by the South African Radio Astronomy (SARA) Starbizz initiative.
+TART hardware is available for purches from the RATT group at Rhodes University (Contact Zizipo for further information.)
+* Electronics including will be ~EUR 1500 preassembled and tested.
+* A preassembled antenna array mounting kit is a similar price.
