@@ -31,3 +31,6 @@ There are some command line tools available as part of the [tart_tools python pa
 You can use command-line tools and more to create images from the TART telescope. These are described  [Making Images](./basics/making-images).
 
 
+## Contacting the TART team
+
+The primary contact for the TART team is Tim Molteno. His email is tim_at_elec_dot_ac_dot_nz.

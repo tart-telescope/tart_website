@@ -10,9 +10,9 @@ toc_max_heading_level: 5
 
 # The First International TART workshop
 
-The first international TART workshop was held at Rhodes University from 9-13 October 2023. This workshop was sponsored by SARAO, and the local organizing committee was led by Dr Stanley Kuja. The press release from SARAO is [here](https://www.sarao.ac.za/news/low-cost-radio-telescope-brings-new-research-and-training-opportunities-for-african-scientists/).
+The first international TART [workshop](/docs/install/workshop) was held at Rhodes University from 9-13 October 2023. This workshop was sponsored by SARAO, and the local organizing committee was led by Dr Stanley Kuja. The press release from SARAO is [here](https://www.sarao.ac.za/news/low-cost-radio-telescope-brings-new-research-and-training-opportunities-for-african-scientists/).
 
-Many members of the TART team were there
+Members of the TART team were there were myself, Rikus and Ben.
 
 ## TART installations in SKA African Partner nations
 
@@ -26,7 +26,7 @@ During the workshop it was learned that the South African Radio Astronomy Observ
 * Namibia
 * Zambia
 
-Delegates from each of these partner nations were present at the workshop.
+Delegates from each of these partner nations were present at the workshop, along with astronomers from Italy, Portugal, South Africa and further afield.
 
 
 ## The TART logo
