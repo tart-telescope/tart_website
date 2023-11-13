@@ -13,7 +13,7 @@ const collaborate = {id: 'collaborate', title: <Translate>Collaborate</Translate
 const FeatureList = [
   {
     title: easy_to_use.title,
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/signal_small.svg').default,
     description: (
       <>
         <Translate>TART was designed from the ground up to be easily installed and
