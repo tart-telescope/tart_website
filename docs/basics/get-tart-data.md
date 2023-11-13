@@ -33,8 +33,17 @@ You can install the tart2ms python package which will give you some command line
 
 ```pip3 install tart2ms```
 
-tart2ms --ms obs.ms --api https://tart.elec.ac.nz/signal
+Download a single snapshot
 
+    tart2ms --ms obs.ms --api https://tart.elec.ac.nz/signal
+
+Download 1 minute worth of visibilities, and combine them into a single observation
+
+    tart2ms --ms signal1.ms --vis vis_2023-11-13_07_28_34.576476.hdf --rephase obs-midpoint --single-field
+
+You can create an image using the [disko]{docs/advanced/disko) package
+
+    disko --ms signal1.ms --SVG --fov 170deg --res 1deg --lasso --alpha 0.05 --healpix
 
 ## From S3 bucket
 
