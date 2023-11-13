@@ -31,5 +31,12 @@ cd sbc_code/software
 docker-compose -f docker-compose-telescope.yml build
 </code>
 
+## Connecting to your telescope locally
 
+If you telescope has an IP address on your network (i.e., x.x.x.x) then you can connect directly to it via a web browser
 
+```http://x.x.x.x```
+
+### Troubleshooting
+
+You should see a web interface... If the image looks like a clock (showing the current time in UTC), then the TART can't communicate with it's correlator. 

@@ -41,7 +41,7 @@ Download 1 minute worth of visibilities, and combine them into a single observat
 
 ```tart2ms --ms signal1.ms --vis vis_2023-11-13_07_28_34.576476.hdf --rephase obs-midpoint --single-field```
 
-You can create an image using the [disko](docs/advanced/disko) package
+You can create an image using the [disko](/docs/advanced/disko) package
 
 ```disko --ms signal1.ms --SVG --fov 170deg --res 1deg --lasso --alpha 0.05 --healpix```
 

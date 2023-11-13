@@ -8,15 +8,15 @@ Make round images with your TART data. The DiSkO stands for Discrete Sky Operato
 
 ## Get some data
 
-See [getting data](docs/basics/get-tart-data) for more details
+See [getting data](/docs/basics/get-tart-data) for more details
 
 ```tart2ms --ms signal1.ms --vis vis_2023-11-13_07_28_34.576476.hdf --rephase obs-midpoint --single-field```
 
-You can create an image using the [disko](docs/advanced/disko) package
+You can create an image using the disko command-line tool (```pip install disko```)
 
 ```disko --ms signal1.ms --SVG --fov 170deg --res 1deg --lasso --alpha 0.005 --healpix --hdf signal.h5```
 
-## Imagine Files
+## Image Output Files
 
 Disko can output various formats, but the best is the .hdf5 format. This can be drawn on using the disko_draw command to show sources e.t.c.
 
@@ -24,7 +24,7 @@ Disko can output various formats, but the best is the .hdf5 format. This can be 
     
 ![DiSkO image](./signal.svg)
 
-## Command Line options
+## Command Line reference
 
 ```
 disko --help

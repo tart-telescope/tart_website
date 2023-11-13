@@ -14,7 +14,7 @@ These radio modules each contain four receivers, and are connected to active ant
 
 ### Motherboard
 
-The motherboard has 6 slots for radio modules. and houses:
+The motherboard has 8 slots for radio modules. and houses:
 * The FPGA correlator
 * The linux computer that provides a web API, connected to the internet, and runs the TART software.
 
