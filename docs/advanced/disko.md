@@ -4,25 +4,31 @@ sidebar_position: 4
 
 # DiSkO Imaging Tools
 
-Make round images with your TART data.
+Make round images with your TART data. The DiSkO stands for Discrete Sky Operator imaging. [Github Repo Here](https://github.com/tmolteno/disko).
 
 ## Get some data
 
-See [getting data])(docs/basics/get-tart-data) for more details
+See [getting data](docs/basics/get-tart-data) for more details
 
-    tart2ms --ms signal1.ms --vis vis_2023-11-13_07_28_34.576476.hdf --rephase obs-midpoint --single-field
+```tart2ms --ms signal1.ms --vis vis_2023-11-13_07_28_34.576476.hdf --rephase obs-midpoint --single-field```
 
-You can create an image using the [disko]{docs/advanced/disko) package
+You can create an image using the [disko](docs/advanced/disko) package
 
-    disko --ms signal1.ms --SVG --fov 170deg --res 1deg --lasso --alpha 0.05 --healpix
+```disko --ms signal1.ms --SVG --fov 170deg --res 1deg --lasso --alpha 0.005 --healpix --hdf signal.h5```
+
+## Imagine Files
+
+Disko can output various formats, but the best is the .hdf5 format. This can be drawn on using the disko_draw command to show sources e.t.c.
+
+```disko_draw --show-sources --SVG signal.svg signal.h5```
+    
+![DiSkO image](./signal.svg)
 
 ## Command Line options
 
 ```
 disko --help
-/home/tim/.local/bin/disko:12: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
-  import pkg_resources  # part of setuptools
-WARNING: Cannot import Africanus API. MODEL_DATA filling capabilities disabled
+
 usage: disko [-h] [--fov FOV] [--res RES] [--mesh] [--adaptive ADAPTIVE] [--res-min RES_MIN] [--healpix] [--nside NSIDE] [--file FILE | --ms MS] [--nvis NVIS] [--vis VIS] [--channel CHANNEL]
              [--field FIELD] [--ddid DDID] [--lsqr | --lsmr | --fista | --lasso | --tikhonov] [--matrix-free] [--niter NITER] [--dir DIR] [--alpha ALPHA] [--l1-ratio L1_RATIO] [--show-sources]
              [--title TITLE] [--elevation ELEVATION] [--display] [--PNG] [--PDF] [--SVG] [--HDF HDF] [--VTK] [--FITS] [--cv] [--dask] [--version]
