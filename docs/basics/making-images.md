@@ -22,7 +22,6 @@ The disko python package is a tools designed to work with all-sky radio telescop
 ```
 
 
-
 ## Using WSClean
 
 The wsclean package is a standard tool for creating images from measurement sets. If you have a measurement set (created by **tart2ms**), then the following command should make a FITS formatted image.

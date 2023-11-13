@@ -4,6 +4,8 @@ import styles from './styles.module.css';
 
 import Translate, {translate} from '@docusaurus/Translate';
 
+import Carousel from '@site/src/components/Carousel';
+
 const easy_to_use = {id: 'easy_to_use', title: <Translate>Easy to use</Translate>}
 const focus_matters = {id: 'focus_matters', title: <Translate>Focus on what matters</Translate>}
 const collaborate = {id: 'collaborate', title: <Translate>Collaborate</Translate>}

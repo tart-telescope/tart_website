@@ -20,4 +20,4 @@ Each radio has four digital outputs which are fed into the correlator. These out
 
 ## Github
 
-The correlator code is [here](https://github.com/tart-telescope/fpga-correlator)
+The correlator code is [here](https://github.com/tart-telescope/signal_pipeline)

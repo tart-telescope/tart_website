@@ -4,6 +4,9 @@
 const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'TART',
@@ -35,6 +38,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           editUrl:
             'https://github.com/tart-telescope/tart_website/',
         },
