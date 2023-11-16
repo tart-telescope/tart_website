@@ -29,3 +29,15 @@ The wsclean package is a standard tool for creating images from measurement sets
 ```
 export OPENBLAS_NUM_THREADS=1; wsclean -weight briggs 0 -name test -pol RR -size 1000 1000 -scale 0.175 -niter 1000 -gain 0.1 -mgain 0.05 -padding 1.5 -auto-mask 7 test.ms
 ```
+
+## Making a movie
+
+Here is a little script that will run on linux, and make a movie from the TART data. First let us download some data
+
+```for i in {1..30}
+do
+  tart_download_data --n 1 --vis
+  tart_calibration_data --n 1 --file obs_$i.json
+  sleep 120
+done
+```

@@ -6,7 +6,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 
 import Carousel from '@site/src/components/Carousel';
 
-const easy_to_use = {id: 'easy_to_use', title: <Translate>Easy to use</Translate>}
+const easy_to_use = {id: 'easy_to_use', title: <Translate>Create Images of the Radio Sky</Translate>}
 const focus_matters = {id: 'focus_matters', title: <Translate>Focus on what matters</Translate>}
 const collaborate = {id: 'collaborate', title: <Translate>Collaborate</Translate>}
 
@@ -17,7 +17,7 @@ const FeatureList = [
     description: (
       <>
         <Translate>TART was designed from the ground up to be easily installed and
-        used to get your radio astronomy projects up and running quickly.</Translate>
+        easy to use. Get your radio astronomy projects up and running quickly.</Translate>
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        TART lets you modify, access and explore every part of a modern aperture
+        TART is <b>open-source</b>. You can modify, access and explore every part of a modern aperture
         synthesis radio telescope. Raw data can be examined, the array layout modified and more.
       </>
     ),
