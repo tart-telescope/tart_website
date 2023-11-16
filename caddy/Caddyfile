@@ -15,7 +15,6 @@ route /viewer/* {
         root * /srvviewer
 	try_files {path} /
         file_server
-        #reverse_proxy viewer:80
 }
 
 
@@ -33,6 +32,13 @@ route /catalog/* {
 reverse_proxy /signal/* host.docker.internal:8080
 reverse_proxy /tartza/* host.docker.internal:8080
 reverse_proxy /rhodes/* host.docker.internal:8080
+
+# Redirect old website to current website
+
+redir /doc /
+redir /doc/ /
+redir /tart_website /
+redir /tart_website/ /
 
 # Serve everything else from the file system
 # Templates give static sites some dynamic features

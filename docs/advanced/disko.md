@@ -22,7 +22,7 @@ Disko can output various formats, but the best is the .hdf5 format. This can be 
 
 ```disko_draw --show-sources --SVG signal.svg signal.h5```
     
-![DiSkO image](./signal.svg)
+![DiSkO image](pathname:///img/signal.svg)
 
 ## Command Line reference
 

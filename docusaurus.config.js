@@ -12,7 +12,7 @@ const config = {
   title: 'TART',
   tagline: 'Transient Array Radio Telescope',
   url: 'https://tart.elec.ac.nz/',
-  baseUrl: '/doc/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
