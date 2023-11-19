@@ -14,6 +14,11 @@ The first international TART [workshop](/docs/install/workshop) was held at Rhod
 
 Members of the TART team were there were myself, Rikus and Ben.
 
+|  |
+| --- |
+| ![TART Volunteers](/img/volunteers_at_rhodes.jpg) |
+| TART volunteers Ben Hugo and Rukus Human along with Takalani, Tim and Oleg  during assembly of the TART array at the workshop.  |
+
 ## TART installations in SKA African Partner nations
 
 During the workshop it was learned that the South African Radio Astronomy Observatory (SARAO), who host the SKA project in South Africa, will be funding the installation of a TART telescope in many of the SKA African partner nations. These are:
@@ -27,6 +32,10 @@ During the workshop it was learned that the South African Radio Astronomy Observ
 * Zambia
 
 Delegates from each of these partner nations were present at the workshop, along with astronomers from Italy, Portugal, South Africa and further afield.
+
+## Photos
+
+![TART Array Assembly](/img/tart_array_assembly.jpg)
 
 
 ## The TART logo

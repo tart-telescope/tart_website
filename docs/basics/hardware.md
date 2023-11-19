@@ -30,28 +30,30 @@ Here is a rendering of a potential 5 arm layout, optimized to provide effective 
 ![TART-3 five arm rendering](./optimized_array.png)
 ![TART-3 five arm](./uv_coverage.png)
 
-## Changes from TART-2
+## Changes in TART-3
 
-TART-2 consisted of 4 radio hubs with 6 recievers on each hub. These connected via Cat-6 UTP cable to a central basestation. TART-3 features
+TART-2 consisted of 4 radio hubs with 6 recievers on each hub. These connected via Cat-6 UTP cable to a central basestation.
+
+The new hardware, TART-3 features
 
 * Improved I/Q sampling - reducing a random phase offset on restart.
 * Up to 2-bit I and Q samples can be digitized
 * New Correlator FPGA - lower cost and higher performance.
-* Easier Antenna Layout
+* Easier to assemble Antenna Layout
 * All radios are in a central location, lower costs.
 
 
 ## Costings
 
-Costings are difficult to estimate as this is a new version of hardware and development is not complete. At the moment the hardware is being made available through the [workshop](/docs/install/workshop). The antenna array assembly is usually fabricated on-site from available materials. 
+Costings are difficult to estimate as TART-3 is a new version of hardware and development is not complete. At the moment the hardware is being made available through the [TART workshop programme](/docs/install/workshop). The antenna array assembly is usually fabricated on-site from available materials.
 
 Some extimates are below not including and freight charges:
 * Electronics and antennas: Electronics can be made available to groups working on hardware and correlators on request from the New Zealand hardware team (see below for a potential other avenue). 
 * Case and Housing: Done on site: Allow ~EUR 100 (not including labour)
-* Antenna array. Done on site, and costs will vary wideley as most of the costs are labour.  Can range for ~EUR 100 (using scrap and volunteer labour) to much more (see below).
+* Antenna array. Done on site, and costs will vary wideley as most of the costs are labour.  Can range for ~EUR 100 (using scrap and volunteer labour) to more (see below).
 
 ### Getting TART hardware
 
 TART hardware will soon be available for purches from the RATT group at Rhodes University (Contact Zizipo for further information.)
-* Electronics including will be ~EUR 2000 preassembled and tested.
-* A preassembled adjustable CNC machined antenna array mounting kit will be a similar price.
+* Electronics including patch antennas, will be ~EUR 2200 preassembled and tested.
+* A preassembled adjustable CNC machined antenna array mounting kit will also be made available at a similar price.

@@ -9,8 +9,8 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TART',
-  tagline: 'Transient Array Radio Telescope',
+  title: 'Transient Array Radio Telescope',
+  tagline: 'TART: 32-element Aperture-Synthesis Radio Telescope',
   url: 'https://tart.elec.ac.nz/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
