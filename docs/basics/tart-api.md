@@ -14,11 +14,13 @@ Try this in your browser by [clicking here](https://tart.elec.ac.nz/signal/api/v
 
 ## API documentation
 
-API documentation is available here: https://tart.elec.ac.nz/signal/docs
+API documentation is available here: https://tart.elec.ac.nz/signal/doc/
 
 
 ## The source catalogue
 
-There is an online API for getting source positions in the GPS sky. It is documented at (https://tart.elec.ac.nz/catalog/doc/index.html)
+There is an online API for getting source positions in the GPS sky. It is documented at (https://tart.elec.ac.nz/catalog/doc/index.html). 
 
 Here is a [link to the current objects above signal hill](https://tart.elec.ac.nz/catalog/catalog?lat=-45.85&lon=170.54)
+
+The github repository for the source catalogue is (https://github.com/tart-telscope/catalogue).
