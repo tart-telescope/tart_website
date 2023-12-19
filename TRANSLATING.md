@@ -4,7 +4,10 @@ Here are some instructions for those helping to translate parts of the TART docu
 
 ## The easy way (small changes)
 
-Create a copy of the file that you would like to 
+Create a copy of the file that you would like to translate -- for example the intro page is (https://github.com/tart-telescope/tart_website/blob/main/docs/intro.md). Make a copy of this page and translate it into the target language. Keep it's name the same (i.e intro.md). Then send this to the TART telegram group, and we will incorporate it into the language specific part of the website.
+
+If you are more familiar with git and github, you can use pull requests (see below).
+
 ## The harder way (via git)
 
 This way you will use the power of git to help with the translation of the site. You will need your own github account.
