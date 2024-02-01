@@ -1,30 +1,39 @@
 ---
-sidebar_position: 1
+posição_da barra lateral: 1
 ---
 
-# TART Intro
-
-Let's discover **TART in less than 5 minutes**.
-
-The Transient Array Radio Telescope (TART) is an aperture synthesis radio telescope, it uses 24 radio receivers to create images of the radio sky at 1.575 GHz. The antennas look at the whole sky at once. Data from these receivers are correlated by the TART basestation, and visibilities are generated in real time.  The TART operates in exactly the same way that large radio telescopes like the MeerKAT, SKA and VLA work, and provides an excellent platform for understanding, and develop new algorithms for radio astronomy. 
-
-## The telescope web interface
-
-Each TART telescope has a web interface. These are web applications that get data from the  [TART web API](./basics/tart-api) and create images and allow you to control the telescope. Here is the web interface for the [Dunedin New Zealand TART](https://tart.elec.ac.nz/signal/home).
-
-## The components of a TART telescope
-
-A TART consists of 24 radio receivers (mounted on radio modules), each with an antenna arranged in an array. These radio hubs are connected to the baststation. Further information on the [TART hardware](./basics/hardware) page.
-
-All of the data from the telescope is processed on the basestation and made available via the [TART web API](./basics/tart-api).
-
-## Using the tart tools
-
-There are some command line tools available as part of the [tart_tools python package](https://github.com/tart-telescope/tart_modules). These command line tools let you do things like downloading data, creating images e.t.c.
+importar carrossel de '@site/src/components/Carousel';
 
 
-## Creating Images
+# Introdução ao TART
 
-You can use command-line tools and more to create images from the TART telescope. These are described  [Making Images](./basics/making-images).
+Vamos descobrir **TART em menos de 5 minutos**
+
+O Transient Array Radio Telescope (TART) é um radiotelescópio de síntese de abertura que usa 24 ou 32 receptores de rádio para criar imagens do céu de rádio a 1,575 GHz. As antenas olham para todo o céu de uma só vez. Os dados desses receptores são correlacionados pela estação base TART e as visibilidades são geradas em tempo real. O TART opera exatamente da mesma maneira que grandes radiotelescópios como o MeerKAT, SKA e VLA funcionam, e fornece uma excelente plataforma para compreensão e desenvolvimento de novos algoritmos para radioastronomia.
+
+|       |      |
+| ---   | ---- |
+| ![tart array](pathname:///img/tart_array.jpg) | ![DiSkO image](pathname:///img/signal.svg) |
 
 
+## A interface web do telescópio
+
+Cada telescópio TART possui uma interface web. São aplicativos web que obtêm dados da [API web TART](./basics/tart-api) e criam imagens e permitem controlar o telescópio. Aqui está a interface web do [TART Dunedin New Zealand](https://tart.elec.ac.nz/signal/home).
+
+Os componentes de um telescópio TART
+
+Um TART consiste em 24 receptores de rádio (montados em módulos de rádio), cada um com uma antena disposta em conjunto. Esses hubs de rádio estão conectados à estação bast. Mais informações na página [hardware TART](./basics/hardware).
+
+Todos os dados do telescópio são processados ​​na estação base e disponibilizados através da [TART web API](./basics/tart-api).
+
+## Usando as ferramentas tortas
+
+Existem algumas ferramentas de linha de comando disponíveis como parte do [pacote python tart_tools](https://github.com/tart-telescope/tart_modules). Essas ferramentas de linha de comando permitem fazer coisas como baixar dados, criar imagens, etc.
+
+## Criando Imagens
+
+Você pode usar ferramentas de linha de comando e muito mais para criar imagens do telescópio TART. Eles são descritos em [Fazendo Imagens](./basics/making-images).
+
+## Entrando em contato com a equipe TART
+
+O contato principal da equipe TART é Tim Molteno. Seu e-mail é tim_at_elec_dot_ac_dot_nz.
