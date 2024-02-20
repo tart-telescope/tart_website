@@ -65,7 +65,7 @@ const config = {
         title: 'TART',
         logo: {
           alt: 'TART Logo',
-          src: 'img/logo.svg',
+          src: 'img/elec_logo.svg',
         },
         items: [
           {

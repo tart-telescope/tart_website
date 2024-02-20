@@ -3,6 +3,10 @@
     "message": "TART",
     "description": "The title in the navbar"
   },
+  "logo.alt": {
+    "message": "TART Logo",
+    "description": "The alt text of navbar logo"
+  },
   "item.label.Tutorial": {
     "message": "Tutorial",
     "description": "Navbar item with label Tutorial"
@@ -14,9 +18,5 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
-  },
-  "logo.alt": {
-    "message": "TART Logo",
-    "description": "The alt text of navbar logo"
   }
 }

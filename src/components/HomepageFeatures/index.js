@@ -8,7 +8,9 @@ import Carousel from '@site/src/components/Carousel';
 
 const easy_to_use = {id: 'easy_to_use', title: <Translate>Create Images of the Radio Sky</Translate>}
 const focus_matters = {id: 'focus_matters', title: <Translate>Focus on what matters</Translate>}
+
 const collaborate = {id: 'collaborate', title: <Translate>Collaborate</Translate>}
+const collaborate_text = {id: 'collaborate_text', title: <Translate>The TART team on has an array of interesting research projects at all levels from citizen science through undergraduate, to M.Sc and Ph.D projects. New members are welcome, and we can help with joint supervision of student projects with one of the partner insitutions.</Translate>}
 
 const FeatureList = [
   {

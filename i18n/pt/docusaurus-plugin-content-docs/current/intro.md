@@ -1,8 +1,8 @@
 ---
-posição_da barra lateral: 1
+sidebar_position: 1
 ---
 
-importar carrossel de '@site/src/components/Carousel';
+import Carousel from '@site/src/components/Carousel';
 
 
 # Introdução ao TART
