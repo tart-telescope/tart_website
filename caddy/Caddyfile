@@ -1,48 +1,71 @@
-tart.elec.ac.nz
-# Compress responses according to Accept-Encoding headers
-encode gzip zstd
+tart.elec.ac.nz {
+        # Compress responses according to Accept-Encoding headers
+        encode gzip zstd
 
-# Make HTML file extension optional
-try_files {path}.html {path}
+        # Make HTML file extension optional
+        try_files {path}.html {path}
 
-# Send API requests to backend
-rewrite /viewer /viewer/
+        # Send API requests to backend
+        rewrite /viewer /viewer/
 
-reverse_proxy /api/* host.docker.internal:9005
+        reverse_proxy /api/* host.docker.internal:9005
 
-route /viewer/* {
-        uri strip_prefix /viewer
-        root * /srvviewer
-	try_files {path} /
+        route /viewer/* {
+                uri strip_prefix /viewer
+                root * /srvviewer
+                try_files {path} /
+                file_server
+                #reverse_proxy viewer:80
+        }
+
+        route /3/* {
+                uri strip_prefix /3
+                reverse_proxy host.docker.internal:8880
+        }
+
+        route /catalog/doc/* {
+                uri strip_prefix /catalog/doc
+                reverse_proxy host.docker.internal:8877
+                # root * /doc
+                # file_server
+        }
+
+        route /catalog/* {
+                uri strip_prefix /catalog
+                reverse_proxy host.docker.internal:8876
+        }
+
+        reverse_proxy /signal/* host.docker.internal:8080
+        reverse_proxy /tartza/* host.docker.internal:8080
+        reverse_proxy /rhodes/* host.docker.internal:8080
+
+        # Serve everything else from the file system
+        # Templates give static sites some dynamic features
+        #templates
+        #
+        #
+        #
+        redir /doc /
+        redir /doc/ /
+        redir /tart_website /doc
+        redir /tart_website/ /doc
+
+        # route /tart_website/* {
+        #       reverse_proxy https://tart-telescope.github.io {
+        #               header_up Host {upstream_hostport}
+        #       }
+        #}
+
+        root * /srv
         file_server
 }
 
-
-route /catalog/doc/* {
-        uri strip_prefix /catalog/doc
-        root * /doc
-        file_server
+elec.ac.nz {
+	redir https://www.{host}{uri}
 }
 
-route /catalog/* {
-        uri strip_prefix /catalog
-        reverse_proxy host.docker.internal:8876
+www.elec.ac.nz {
+	root * /elec_site
+	file_server
 }
-
-reverse_proxy /signal/* host.docker.internal:8080
-reverse_proxy /tartza/* host.docker.internal:8080
-reverse_proxy /rhodes/* host.docker.internal:8080
-
-# Redirect old website to current website
-
-redir /doc /
-redir /doc/ /
-redir /tart_website /
-redir /tart_website/ /
-
-# Serve everything else from the file system
-# Templates give static sites some dynamic features
-#templates
-root * /srv
-file_server
 
