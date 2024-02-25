@@ -38,4 +38,4 @@ You can use command-line tools and more to create images from the TART telescope
 
 ## Contacting the TART team
 
-The primary contact for the TART team is Tim Molteno. His email is tim_at_elec_dot_ac_dot_nz.
+The TART is a project run by the [Electronics Research Foundation](https://elec.ac.nz) in New Zealand. The primary contact for the TART team is Tim Molteno. His email is tim_at_elec_dot_ac_dot_nz.
