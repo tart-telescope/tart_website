@@ -10,9 +10,9 @@ import rehypeKatex from 'rehype-katex';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Transient Array Radio Telescope',
-  tagline: 'TART: 32-element Aperture-Synthesis Radio Telescope',
+  tagline: 'TART: Open-source Aperture-Synthesis Radio Telescope',
   url: 'https://tart.elec.ac.nz/',
-  baseUrl: '/',
+  baseUrl: 'doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -115,8 +115,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Electronics Research Foundation',
+                to: 'https://elec.ac.nz',
               },
               {
                 label: 'GitHub',
@@ -125,7 +125,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} TART-Telescope Project. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Electronics Research Foundation. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -45,8 +45,8 @@ tart.elec.ac.nz {
         #
         #
         #
-        redir /doc /
-        redir /doc/ /
+        #redir /doc /
+        #redir /doc/ /doc
         redir /tart_website /doc
         redir /tart_website/ /doc
 
