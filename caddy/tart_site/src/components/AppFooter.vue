@@ -1,0 +1,7 @@
+<template>
+  <hr class="mt-5 mb-4" />
+  <p class="text-muted">
+    TART is an open-source project of the
+    <a href="https://elec.ac.nz">Electronics Research Foundation</a>. (c) 2024.
+  </p>
+</template>
