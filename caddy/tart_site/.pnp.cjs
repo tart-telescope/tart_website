@@ -29,13 +29,15 @@ const RAW_RUNTIME_STATE =
           ["@popperjs/core", "npm:2.11.8"],\
           ["@vitejs/plugin-vue", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:5.0.4"],\
           ["bootstrap", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:5.3.3"],\
+          ["bootstrap-icons", "npm:1.11.3"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-plugin-vue", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:9.22.0"],\
           ["sass", "npm:1.71.1"],\
           ["sass-loader", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:14.1.1"],\
           ["vite", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:5.1.4"],\
           ["vue", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:3.4.20"],\
-          ["vue-loader", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:17.4.2"]\
+          ["vue-loader", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:17.4.2"],\
+          ["vue-router", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:4.3.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -706,6 +708,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@vue/devtools-api", [\
+      ["npm:6.6.1", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@vue-devtools-api-npm-6.6.1-ef3c82703e-10c0.zip/node_modules/@vue/devtools-api/",\
+        "packageDependencies": [\
+          ["@vue/devtools-api", "npm:6.6.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@vue/reactivity", [\
       ["npm:3.4.20", {\
         "packageLocation": "../../../../.yarn/berry/cache/@vue-reactivity-npm-3.4.20-93137b79e8-10c0.zip/node_modules/@vue/reactivity/",\
@@ -944,6 +955,15 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@popperjs/core",\
           "@types/popperjs__core"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bootstrap-icons", [\
+      ["npm:1.11.3", {\
+        "packageLocation": "../../../../.yarn/berry/cache/bootstrap-icons-npm-1.11.3-8d5387bef2-10c0.zip/node_modules/bootstrap-icons/",\
+        "packageDependencies": [\
+          ["bootstrap-icons", "npm:1.11.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2888,13 +2908,15 @@ const RAW_RUNTIME_STATE =
           ["@popperjs/core", "npm:2.11.8"],\
           ["@vitejs/plugin-vue", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:5.0.4"],\
           ["bootstrap", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:5.3.3"],\
+          ["bootstrap-icons", "npm:1.11.3"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-plugin-vue", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:9.22.0"],\
           ["sass", "npm:1.71.1"],\
           ["sass-loader", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:14.1.1"],\
           ["vite", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:5.1.4"],\
           ["vue", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:3.4.20"],\
-          ["vue-loader", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:17.4.2"]\
+          ["vue-loader", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:17.4.2"],\
+          ["vue-router", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:4.3.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -2957,6 +2979,29 @@ const RAW_RUNTIME_STATE =
           "@vue/compiler-sfc",\
           "vue",\
           "webpack"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vue-router", [\
+      ["npm:4.3.0", {\
+        "packageLocation": "../../../../.yarn/berry/cache/vue-router-npm-4.3.0-b765d40138-10c0.zip/node_modules/vue-router/",\
+        "packageDependencies": [\
+          ["vue-router", "npm:4.3.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:4.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/vue-router-virtual-10eddba684/5/.yarn/berry/cache/vue-router-npm-4.3.0-b765d40138-10c0.zip/node_modules/vue-router/",\
+        "packageDependencies": [\
+          ["vue-router", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:4.3.0"],\
+          ["@types/vue", null],\
+          ["@vue/devtools-api", "npm:6.6.1"],\
+          ["vue", "virtual:194fb58fb6f92ca57f535699e1eb703bdec6a96d0d409f86bda760b6533fd58892125069995231b0bbeacdb697e14cb127ceabc6cf3cb35a669480aa5d9ac628#npm:3.4.20"]\
+        ],\
+        "packagePeers": [\
+          "@types/vue",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\

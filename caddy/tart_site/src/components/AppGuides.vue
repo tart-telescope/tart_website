@@ -37,7 +37,7 @@ export default {
   <h2>Guides</h2>
   <p>
     Read more detailed instructions and documentation on using or contributing
-    to Bootstrap.
+    to the TART project.
   </p>
 
   <ul class="ps-0 list-style-none">

@@ -523,6 +523,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/devtools-api@npm:^6.5.1":
+  version: 6.6.1
+  resolution: "@vue/devtools-api@npm:6.6.1"
+  checksum: ab9a1e09baae514b0d3a8bf1d670ecb7724f7e55b82eea30aa2e7255e6200b45c1086c1376560f243cf86e98c0726e94d69cefe0ad23dfd50c7c49dfcb1fbf21
+  languageName: node
+  linkType: hard
+
 "@vue/reactivity@npm:3.4.20":
   version: 3.4.20
   resolution: "@vue/reactivity@npm:3.4.20"
@@ -693,6 +700,13 @@ __metadata:
   version: 1.0.0
   resolution: "boolbase@npm:1.0.0"
   checksum: e4b53deb4f2b85c52be0e21a273f2045c7b6a6ea002b0e139c744cb6f95e9ec044439a52883b0d74dedd1ff3da55ed140cfdddfed7fb0cccbed373de5dce1bcf
+  languageName: node
+  linkType: hard
+
+"bootstrap-icons@npm:^1.11.3":
+  version: 1.11.3
+  resolution: "bootstrap-icons@npm:1.11.3"
+  checksum: 37eefd418c6bbbb304bdff0f2ed527f82c3c6f331d3e3a7c4aa8bbdbaf7118bb86725b024f85e7d738c613d48c7353cd81c09e58e9d8d34c5633960fdec8410b
   languageName: node
   linkType: hard
 
@@ -2496,6 +2510,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vue-router@npm:^4.1.5":
+  version: 4.3.0
+  resolution: "vue-router@npm:4.3.0"
+  dependencies:
+    "@vue/devtools-api": "npm:^6.5.1"
+  peerDependencies:
+    vue: ^3.2.0
+  checksum: 72865ad2e5e17035f1d38311caaec77759f9813f3a627553994c05c43d04ceeaf1f9325260be4c060411c49ed176035579bf4815a4c084b908688c0cc6b3cf72
+  languageName: node
+  linkType: hard
+
 "vue@npm:^3.4.15":
   version: 3.4.20
   resolution: "vue@npm:3.4.20"
@@ -2521,6 +2546,7 @@ __metadata:
     "@popperjs/core": "npm:^2.11.8"
     "@vitejs/plugin-vue": "npm:^5.0.3"
     bootstrap: "npm:^5.3.2"
+    bootstrap-icons: "npm:^1.11.3"
     eslint: "npm:^8.56.0"
     eslint-plugin-vue: "npm:^9.21.1"
     sass: "npm:^1.70.0"
@@ -2528,6 +2554,7 @@ __metadata:
     vite: "npm:^5.0.12"
     vue: "npm:^3.4.15"
     vue-loader: "npm:^17.4.2"
+    vue-router: "npm:^4.1.5"
   languageName: unknown
   linkType: soft
 
