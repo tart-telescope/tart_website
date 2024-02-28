@@ -54,6 +54,6 @@ Some extimates are below not including and freight charges:
 
 ### Getting TART hardware
 
-TART hardware will soon be available for purches from the RATT group at Rhodes University (Contact Zizipo for further information.)
-* Electronics including patch antennas, will be ~EUR 2200 preassembled and tested.
+TART hardware will soon be available for purchase from the Electronics Research Foundation and also from Rhodes University (Contact Zizipo for further information.)
+* Electronics including correlator, single board computer and antennas, will be ~EUR 2200 preassembled and tested.
 * A preassembled adjustable CNC machined antenna array mounting kit will also be made available at a similar price.

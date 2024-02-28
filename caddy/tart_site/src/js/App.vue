@@ -5,8 +5,6 @@ import Footer from '../components/AppFooter.vue';
 </script>
 
 <template>
-  <router-view />
-
   <div class="container py-4 px-3">
     <Header />
     <h1>Transient Array Radio Telescope (TART)</h1>
@@ -27,7 +25,11 @@ import Footer from '../components/AppFooter.vue';
         <a href="https://github.com/tart-telescope">hosted on github</a>.
       </p>
 
-
+      <h3>News</h3>
+      <ul>
+      <li>TART workshop confirmed for Mauritius 22nd April 2024</li>
+      </ul>
+      
 <div id="carouselTART" class="carousel carousel-dark slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselTART" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -37,7 +39,7 @@ import Footer from '../components/AppFooter.vue';
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
       <div class="ratio ratio-16x9">
-      <img src="https://tart.elec.ac.nz/doc/assets/images/tart_array_assembly-ad8af2d7ec103f3738c7a57d9e2f35b7.jpg" class="d-block w-100" alt="...">
+      <img src="https://tart.elec.ac.nz/doc/assets/images/tart_array_assembly-ad8af2d7ec103f3738c7a57d9e2f35b7.jpg" class="object-fit-contain d-block w-100" alt="...">
       </div>
       <div class="carousel-caption d-none d-md-block">
         <p>Attendees at a TART workshop assembling the antenna array. This TART was installed at Rhodes University in South Africa.</p>
@@ -45,7 +47,7 @@ import Footer from '../components/AppFooter.vue';
     </div>
     <div class="carousel-item" data-bs-interval="2000">
       <div class="ratio ratio-16x9">
-      <img :src="'../img/slideshow_1.jpg'" class="d-block w-100" alt="...">
+      <img :src="'../img/slideshow_1.jpg'" class="object-fit-contain d-block w-100" alt="...">
       </div>
       <div class="carousel-caption d-none d-md-block">
         <p>The original TART telecope at Signal Hill, Dunedin New Zealand.</p>
@@ -65,7 +67,8 @@ import Footer from '../components/AppFooter.vue';
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTART" data-bs-slide="prev">
+  <button class="carousel-control-prev" 
+          type="button" data-bs-target="#carouselTART" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
@@ -74,26 +77,6 @@ import Footer from '../components/AppFooter.vue';
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<!--        <div class="container-sm">
-          <img
-            class="mx-auto d-block mb-2 float-md-left mr-md-4 img-thumbnail""
-            src="https://tart.elec.ac.nz/doc/assets/images/tart_array_assembly-ad8af2d7ec103f3738c7a57d9e2f35b7.jpg"
-            style="max-width: 400px"
-          />
-          <p style="max-width: 400px">Attendees at a TART workshop assembling the antenna array. This TART was installed at Rhodes University in South Africa.</p>
-        </div>
-
-        <div class="container-sm">
-          <div class="ratio ratio-4x3">
-            <video class="w-100" controls width="400" style="max-width: 400px">
-              <source
-                :src="'https://tart.elec.ac.nz/old/strange_flyby.webm'"
-                type="video/webm"
-              />
-            </video>
-          </div>
-          <p>Unusual Low-earth-orbit satellite flyby transmitting in the GNSS bands, observed with a TART telescope.</p>
-        </div>-->
     </div>
 
     <hr />

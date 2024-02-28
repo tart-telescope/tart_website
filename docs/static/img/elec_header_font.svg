@@ -4,13 +4,6 @@
    width="1523.9904"
    id="svg2"
    version="1.1"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="elec_header.svg"
-   inkscape:export-filename="elec_header_font.svg"
-   inkscape:export-xdpi="100"
-   inkscape:export-ydpi="100"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -31,42 +24,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs1384">
-    <rect
-       x="802"
-       y="165"
-       width="1708"
-       height="360"
-       id="rect5816" />
-  </defs>
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1000"
-     id="namedview1382"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:zoom="0.82969017"
-     inkscape:cx="781.01444"
-     inkscape:cy="159.69817"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2"
-     inkscape:showpageshadow="2"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showborder="true" />
+     id="defs1384" />
   <g
      id="g6563"
      transform="scale(0.21142123)">
@@ -4205,18 +4163,12 @@
   </g>
   <text
      xml:space="preserve"
-     id="text5814"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect5816);display:inline;fill:#000000;fill-opacity:1;stroke:none"
-     transform="translate(0,-678.96632)" />
-  <text
-     xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="198.84912"
+     x="210.90181"
      y="87.710747"
      id="text5822"><tspan
-       sodipodi:role="line"
        id="tspan5820"
-       x="198.84912"
+       x="210.90181"
        y="87.710747">Electronics Research Foundation</tspan></text>
   <text
      xml:space="preserve"
@@ -4224,38 +4176,25 @@
      x="883.83081"
      y="155.61562"
      id="text6567"><tspan
-       sodipodi:role="line"
        id="tspan6565"
        x="883.83081"
        y="155.61562">elec.ac.nz</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="1175.2917"
+     x="1179.2917"
      y="155.61562"
      id="text6571"><tspan
-       sodipodi:role="line"
        id="tspan6569"
-       x="1175.2917"
+       x="1179.2917"
        y="155.61562">outreach@elec.ac.nz</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="1218.5271"
-     y="118.92187"
-     id="text6575"><tspan
-       sodipodi:role="line"
-       id="tspan6573"
-       x="1218.5271"
-       y="118.92187" /></text>
-  <text
-     xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Accanthis ADF Std';-inkscape-font-specification:'Accanthis ADF Std, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-     x="213.76961"
+     x="221.76961"
      y="155.61562"
      id="text6579"><tspan
-       sodipodi:role="line"
        id="tspan6577"
-       x="213.76961"
+       x="221.76961"
        y="155.61562">236 Signal Hill Rd, Dunedin NZ</tspan></text>
 </svg>
