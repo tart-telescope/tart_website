@@ -26,16 +26,21 @@
                  id="navbarDocs">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://tart.elec.ac.nz/doc/">TART documentation</a>
+                        <a class="nav-link" href="https://tart.elec.ac.nz/doc/">Docs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        API
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://tart.elec.ac.nz/signal/doc/">Telescope API</a></li>
+                        <li><a class="dropdown-item" href="https://tart.elec.ac.nz/catalog/doc/">Catalog API</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="https://tart.elec.ac.nz/doc/docs/basics/tart-api">Using TART APIs</a></li>
+                      </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://tart.elec.ac.nz/signal/doc/">Telescope API</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://tart.elec.ac.nz/catalog/doc/">Source Catalogue API</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/tart-telescope/">Github</a>
+                        <a class="nav-link" href="https://github.com/tart-telescope/">Github <i class="bi bi-github"></i></a>
                     </li>
                 </ul>
             </div>

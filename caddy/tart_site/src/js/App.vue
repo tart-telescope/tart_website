@@ -14,8 +14,6 @@ import Footer from '../components/AppFooter.vue';
         The TART is a 24-element synthesis array radio-telescope. It observes
         the entire sky continuously and is optimized to detect transient events,
         including satellites, near-earth objects and high-energy cosmic rays.
-      </p>
-      <p>
         The telescope is also designed to serve as a platform for the
         development of new imaging algorithms.
       </p>
@@ -37,20 +35,20 @@ import Footer from '../components/AppFooter.vue';
     <button type="button" data-bs-target="#carouselTART" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <div class="ratio ratio-16x9">
-      <img src="https://tart.elec.ac.nz/doc/assets/images/tart_array_assembly-ad8af2d7ec103f3738c7a57d9e2f35b7.jpg" class="object-fit-contain d-block w-100" alt="...">
-      </div>
-      <div class="carousel-caption d-none d-md-block">
-        <p>Attendees at a TART workshop assembling the antenna array. This TART was installed at Rhodes University in South Africa.</p>
-      </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item active" data-bs-interval="2000">
       <div class="ratio ratio-16x9">
       <img :src="'../img/slideshow_1.jpg'" class="object-fit-contain d-block w-100" alt="...">
       </div>
       <div class="carousel-caption d-none d-md-block">
         <p>The original TART telecope at Signal Hill, Dunedin New Zealand.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="ratio ratio-16x9">
+      <img src="https://tart.elec.ac.nz/doc/assets/images/tart_array_assembly-ad8af2d7ec103f3738c7a57d9e2f35b7.jpg" class="object-fit-contain d-block w-100" alt="...">
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+        <p>Attendees at a TART workshop assembling the antenna array. This TART was installed at Rhodes University in South Africa.</p>
       </div>
     </div>
     <div class="carousel-item">
@@ -67,7 +65,7 @@ import Footer from '../components/AppFooter.vue';
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" 
+  <button class="carousel-control-prev"
           type="button" data-bs-target="#carouselTART" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>

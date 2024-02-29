@@ -16,8 +16,8 @@ export default {
           title: 'Live telescope viewer',
         },
         {
-          url: 'https://tart.elec.ac.nz/signal/doc/',
-          title: 'Telescope API Documentation',
+          url: 'https://tart.elec.ac.nz/doc/docs/basics/tart-api',
+          title: 'Using TART APIs',
         },
         {
           url: 'https://tart.elec.ac.nz/catalog/doc/',
