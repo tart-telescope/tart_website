@@ -1,27 +1,24 @@
 
 FROM node:latest as base
 WORKDIR /build
-EXPOSE 3000
+EXPOSE 8080
 
-FROM base as dev
-
-COPY package.json ./
-
+COPY package.json .
 # Install dependencies
 RUN yarn install
 
-# Copy the rest of your application code
+COPY index.html .
+COPY vite.config.js .
+RUN ls
 
-COPY . .
-RUN ls -a
+# Now do interactive development
+FROM base as dev
+RUN ls
 CMD yarn start --host
 
+# Now do build (for installation)
+FROM base as build
 
-# FROM base as prod
-# RUN --mount=type=bind,source=package.json,target=package.json \
-#     --mount=type=bind,source=package-lock.json,target=package-lock.json \
-#     --mount=type=cache,target=/root/.npm \
-#     npm ci --omit=dev
-# USER node
-# COPY . .
-# CMD node src/index.js
+CMD yarn build
+
+    

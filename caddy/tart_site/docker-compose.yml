@@ -1,12 +1,31 @@
 services:
-  server:
+  dev:
     build:
       context: .
       target: dev
     ports:
       - 8080:8080
     environment:
+      NODE_ENV: development
+    volumes:
+      - ./src:/build/src
+      - ./img:/build/img
+      - node_modules:/build/node_modules
+
+
+  build:
+    build:
+      context: .
+      target: build
+    ports:
+      - 8080:8080
+    environment:
       NODE_ENV: production
     volumes:
-      - ./src:/usr/src/app/src
-      - ./img:/usr/src/app/img
+      - ./src:/build/src
+      - ./img:/build/img
+      - node_modules:/build/node_modules
+      - ./dist:/build/dist
+
+volumes:
+    node_modules:
