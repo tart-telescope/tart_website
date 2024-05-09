@@ -15,7 +15,7 @@ The easiest way to make images is to use the web interface. A public web interfa
 
 ## Using command line tools (recommended)
 
-This requires the tart_tools package ```pip install tart_tools```.
+This requires the tart_tools, tart2ms and disko python packages ```pip install tart_tools tart2ms disko```,
 
 Step 1: Download data to an HDF file
 ```
