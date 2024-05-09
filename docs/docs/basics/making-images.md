@@ -13,6 +13,28 @@ Creating images in TART is requires three things
 
 The easiest way to make images is to use the web interface. A public web interface is available [here](https://tart.elec.ac.nz/signal/home).
 
+## Using command line tools (recommended)
+
+This requires the tart_tools package ```pip install tart_tools```.
+
+Step 1: Download data to an HDF file
+```
+tart_download_data --n 1 --vis --file tart_udm.hdf
+```
+
+Step 2: Turn the downloaded data into a measurement set using tart2ms
+```
+tart2ms --hdf tart_udm.hdf --ms tart_udm.ms --rephase "obs-midpoint" --single-field
+```
+Step 3: Create a disko image
+
+```
+disko --ms tart_udm.ms --healpix --fov 170deg --res 30arcmin --HDF tart_udm.h5 --lasso --alpha 0.003
+disko_draw --SVG tart_udm.svg --show-sources --elevation 30 tart_udm.h5
+```
+
+The last step overlays the known sources only above elevation of 30 degrees, and generates an SVG file. You can convert this file to a JPEG photo using [inkscape](https://inkscape.org)
+
 ## Using [DiSkO](/docs/advanced/disko)
 
 The [disko](/docs/advanced/disko) python package is a tools designed to work with all-sky radio telescopes. It was developed along with the TART project. DiSkO stands for Discrete Sky Operator imaging. You should have some data from the TART in measurement set format. DiSkO can be installed like any other Python package.
