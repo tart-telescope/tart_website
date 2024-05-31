@@ -41,3 +41,7 @@ We were delighted to find that the array was easily calibrated and now produces 
 ![TART Array Assembly](udm/tart_udm.jpg)
 
 This image was made using [these instructions](/docs/basics/making-images#using-command-line-tools-recommended).
+
+## Acknowledgements
+
+The TART team would like to thank the [University of Otago](https://www.otago.ac.nz) for providing the hardware, the South African Radio Astronomy Observatory ([SARAO](https://www.sarao.ac.za)) for supporting travel and staff time. We're also extremely grateful to the [DARA project](https://www.dara-project.org/) for supporting the accomodation in Mauritus.
