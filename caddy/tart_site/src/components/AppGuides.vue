@@ -12,7 +12,7 @@ export default {
           title: 'TART documentation',
         },
         {
-          url: 'https://tart.elec.ac.nz/signal/',
+          url: 'https://api.elec.ac.nz/tart/mu-udm/',
           title: 'Live telescope viewer',
         },
         {

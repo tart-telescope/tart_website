@@ -33,7 +33,7 @@
                         Live Telescopes
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="https://tart.elec.ac.nz/signal/">Signal Hill, Dunedin</a></li>
+                        <li><a class="dropdown-item" href="https://api.elec.ac.nz/tart/mu-udm/">Mauritius</a></li>
                         <li><a class="dropdown-item" href="https://maxscheel.gitlab.io/tart-vuer/">Alternate Web App</a></li>
                       </ul>
                     </li>
@@ -42,7 +42,7 @@
                         API
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="https://tart.elec.ac.nz/signal/doc/">Telescope API</a></li>
+                        <li><a class="dropdown-item" href="https://api.elec.ac.nz/tart/mu-udm/doc/">Telescope API</a></li>
                         <li><a class="dropdown-item" href="https://tart.elec.ac.nz/catalog/doc/">Catalog API</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="https://tart.elec.ac.nz/doc/docs/basics/tart-api">Using TART APIs</a></li>
@@ -50,6 +50,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://github.com/tart-telescope/">Github <i class="bi bi-github"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:outreach@elec.ac.nz">outreach@elec.ac.nz<i class="bi envelope"></i></a>
                     </li>
                 </ul>
             </div>

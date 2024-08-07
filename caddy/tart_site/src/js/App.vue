@@ -25,7 +25,9 @@ import Footer from '../components/AppFooter.vue';
 
       <h3>News</h3>
       <ul>
-      <li>TART workshop confirmed for Mauritius 22nd April 2024</li>
+      <li>See TART on display at the IAU General Assembly in Cape Town 2024</li>
+      <li>Next TART workshop: Kenya 26nd August 2024</li>
+      <li>Successful <a href="https://tart.elec.ac.nz/doc/blog/tart-install-udm">TART workshop in Mauritius</a> 22nd April 2024</li>
       </ul>
       
 <div id="carouselTART" class="carousel carousel-dark slide">
@@ -41,6 +43,14 @@ import Footer from '../components/AppFooter.vue';
       </div>
       <div class="carousel-caption d-none d-md-block">
         <p>The original TART telecope at Signal Hill, Dunedin New Zealand.</p>
+      </div>
+    </div> 
+    <div class="carousel-item" data-bs-interval="2000">
+      <div class="ratio ratio-16x9">
+      <img src="https://tart.elec.ac.nz/doc/assets/images/assembled_tart_array_udm-ed4043d36b2f71735af7d3d54295af25.jpg" class="object-fit-contain d-block w-100" alt="...">
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+        <p>The new spiral antenna array for the TART in Mauritius.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">

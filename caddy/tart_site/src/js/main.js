@@ -7,6 +7,7 @@ import '../scss/styles.scss'
 
 // Import only the Bootstrap components we need
 import { Popover } from 'bootstrap';
+import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 
 createApp(App).mount('#app')
 
