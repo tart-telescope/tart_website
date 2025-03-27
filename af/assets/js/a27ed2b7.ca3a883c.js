@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktart_website=self.webpackChunktart_website||[]).push([[4253],{7851:t=>{t.exports=JSON.parse('{"label":"calibration","permalink":"/tart_website/af/blog/tags/calibration","allTagsPath":"/tart_website/af/blog/tags","count":1}')}}]);

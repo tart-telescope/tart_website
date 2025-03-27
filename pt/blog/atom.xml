@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://tart.elec.ac.nz/doc/pt/blog</id>
+    <title>Transient Array Radio Telescope Blog</title>
+    <updated>2024-08-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://tart.elec.ac.nz/doc/pt/blog"/>
+    <subtitle>Transient Array Radio Telescope Blog</subtitle>
+    <icon>https://tart.elec.ac.nz/doc/pt/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[TART install in Kenya, August 2024]]></title>
+        <id>https://tart.elec.ac.nz/doc/pt/blog/tart-install-kenya</id>
+        <link href="https://tart.elec.ac.nz/doc/pt/blog/tart-install-kenya"/>
+        <updated>2024-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A successful TART installation workshop was held at Technical University of Kenya, on August 26-30 2024. This workshop was sponsored by SARAO, and the local organizing committee was led by the Kenyan Space Agency, with the able assistance of Dr Willis Odobo. This was the first install of the new spiral antenna concept, and the first install of a TART telescope in an African partner nations. Three members of the TART team, Prof Oleg Smirnov (Rhodes University, South Africa), Mr Rikus Human (Electronics Research Foundation, New Zealand), Dr Ben Hugo (SARAO, South Africa), travelled to the workshop to help with the install.]]></summary>
+        <content type="html"><![CDATA[<p>A successful TART installation <a href="https://tart.elec.ac.nz/doc/pt/docs/install/workshop">workshop</a> was held at Technical University of Kenya, on August 26-30 2024. This workshop was sponsored by SARAO, and the local organizing committee was led by the Kenyan Space Agency, with the able assistance of Dr Willis Odobo. This was the first install of the new spiral antenna concept, and the first install of a TART telescope in an African partner nations. Three members of the TART team, Prof Oleg Smirnov (Rhodes University, South Africa), Mr Rikus Human (Electronics Research Foundation, New Zealand), Dr Ben Hugo (SARAO, South Africa), travelled to the workshop to help with the install.</p>
+<p>"Taking lessons from the first TART "training the trainers" workshop organized by Dr Stanley Kuja at <a href="https://tart.elec.ac.nz/doc/pt/blog/first-tart-workshop">Rhodes university in 2023</a>, as well as lessons from the <a href="https://tart.elec.ac.nz/doc/pt/blog/tart-install-udm">first TART install</a> during April in Mauritius, this workshop and install went smoothly. The team did an amazing job working around flooding in Dubai, as well as flooding in Mauritius, and the telescope was fully operational and making calibrated images on the last day of the workshop -- they did an epic job"</p>
+<p>The new array layout is designed to be fabricated on site, with the antennas located on spiral arms at carefully chosen positions that maximize the imaging performance of the TART.</p>
+<table><thead><tr><th></th></tr></thead><tbody><tr><td><img decoding="async" loading="lazy" alt="TART Volunteers" src="https://tart.elec.ac.nz/doc/pt/assets/images/tart-kenya-team-059ade3bf449d516579358b32dea7d41.jpg" width="1280" height="720" class="img_ev3q"></td></tr><tr><td>TART volunteers during assembly of the TART array at the workshop. Image Calvince Juma, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0‍</a></td></tr></tbody></table>
+<p>As part of the workshop a day was devoted to public talks on the TART project (Tim Molteno, University of Otago), radio astronomy imaging (Prof Oleg Smirnov), and working with TART data by Dr Nadeem Oozeer. The workshop was attended by university students, advanced high-school students and members of the Kenyan research and education community.</p>
+<table><thead><tr><th></th></tr></thead><tbody><tr><td><img decoding="async" loading="lazy" alt="TART Volunteers" src="https://tart.elec.ac.nz/doc/pt/assets/images/tart-kenya-2683b06f5946cacb7afa1dbc3b172dfa.jpg" width="2838" height="2577" class="img_ev3q"></td></tr><tr><td>The TART kenya install on the roof of the Technical University of Kenya with the Nairobi skyline in the background. Image Mark, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0‍</a></td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="photos">Photos<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-install-kenya#photos" class="hash-link" aria-label="Link direto para Photos" title="Link direto para Photos">​</a></h2>
+<p>The fully assembled TART spiral antenna array is located on the roof of an Engineering Laboratory building on the Nairobi campus of the Technical University of Kenya.</p>
+<table><thead><tr><th></th></tr></thead><tbody><tr><td><img decoding="async" loading="lazy" alt="TART Array Assembly" src="https://tart.elec.ac.nz/doc/pt/assets/images/tart-kenya-ir-1fcbd30cf90254647c74d5689654c908.jpg" width="965" height="764" class="img_ev3q"></td></tr><tr><td>University students, high-school students and members of the Mauritian community listening to public talks given by workshop presenters, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0‍</a></td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="images">Images<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-install-kenya#images" class="hash-link" aria-label="Link direto para Images" title="Link direto para Images">​</a></h2>
+<p>We were delighted to find that the array was easily calibrated and now produces images. Below is the first light image through the telescope console.</p>
+<p><img decoding="async" loading="lazy" alt="TART Array Assembly" src="https://tart.elec.ac.nz/doc/pt/assets/images/first-light-image-827dd2d67628e91d3cae800bbb4b5915.jpg" width="1280" height="1128" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="acknowledgements">Acknowledgements<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-install-kenya#acknowledgements" class="hash-link" aria-label="Link direto para Acknowledgements" title="Link direto para Acknowledgements">​</a></h2>
+<p>The TART team would like to thank the <a href="https://www.otago.ac.nz/" target="_blank" rel="noopener noreferrer">University of Otago</a> and the <a href="https://www.elec.ac.nz/" target="_blank" rel="noopener noreferrer">Electronics Research Foundation</a> for providing the hardware, the South African Radio Astronomy Observatory (<a href="https://www.sarao.ac.za/" target="_blank" rel="noopener noreferrer">SARAO</a>) for supporting travel and staff time. We're also extremely grateful to the <a href="https://www.dara-project.org/" target="_blank" rel="noopener noreferrer">DARA project</a> for supporting the accomodation in Kenya.</p>]]></content>
+        <author>
+            <name>Tim Molteno</name>
+            <uri>https://github.com/tmolteno</uri>
+        </author>
+        <category label="workshop" term="workshop"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TART install in Mauritius, April 2024]]></title>
+        <id>https://tart.elec.ac.nz/doc/pt/blog/tart-install-udm</id>
+        <link href="https://tart.elec.ac.nz/doc/pt/blog/tart-install-udm"/>
+        <updated>2024-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A successful TART installation workshop was held at Université des Mascareignes, on April 14-19 2024. This workshop was sponsored by SARAO, and the local organizing committee was led by Dr Keshav Sewraj. This was the first install of the new spiral antenna concept, and the first install of a TART telescope in an African partner nations. Three members of the TART team, Prof Oleg Smirnov (Rhodes University, South Africa), Dr Max Scheel (Electronics Research Foundation, New Zealand), Dr Nadeem Oozer (SARAO, South Africa), travelled to the workshop to help with the install.]]></summary>
+        <content type="html"><![CDATA[<p>A successful TART installation <a href="https://tart.elec.ac.nz/doc/pt/docs/install/workshop">workshop</a> was held at Université des Mascareignes, on April 14-19 2024. This workshop was sponsored by SARAO, and the local organizing committee was led by Dr Keshav Sewraj. This was the first install of the new spiral antenna concept, and the first install of a TART telescope in an African partner nations. Three members of the TART team, Prof Oleg Smirnov (Rhodes University, South Africa), Dr Max Scheel (Electronics Research Foundation, New Zealand), Dr Nadeem Oozer (SARAO, South Africa), travelled to the workshop to help with the install.</p>
+<p>"Taking lessons from the first TART "training the trainers" workshop organized by Dr Stanley Kuja at <a href="https://tart.elec.ac.nz/doc/pt/blog/first-tart-workshop">Rhodes university in 2023</a>, the TART install at UdM went pretty smoothly. The team did an amazing job working around flooding in Dubai, as well as flooding in Mauritius, and the telescope was fully operational and making calibrated images on the last day of the workshop -- they did an epic job"</p>
+<p>The new array layout is designed to be fabricated on site, with the antennas located on spiral arms at carefully chosen positions that maximize the imaging performance of the TART.</p>
+<table><thead><tr><th></th></tr></thead><tbody><tr><td><img decoding="async" loading="lazy" alt="TART Volunteers" src="https://tart.elec.ac.nz/doc/pt/assets/images/tart_build_team_udm-674543e7137155b20825bd1ce869fa0b.jpg" width="4000" height="1638" class="img_ev3q"></td></tr><tr><td>TART volunteers Keshav Sewraj, Max Scheel, Oleg Smirnov, Nadeem Oozeer during assembly of the TART array at the workshop. Image Oleg Smirnov, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0‍</a></td></tr></tbody></table>
+<p>As part of the workshop a day was devoted to public talks on the TART project (Tim Molteno, University of Otago), the TART telescope (Max Scheel), radio astronomy imaging (Prof Oleg Smirnov), and working with TART data by Dr Nadeem Oozeer. The workshop was attended by university students, advanced high-school students and members of the Mauritian research and education community.</p>
+<table><thead><tr><th></th></tr></thead><tbody><tr><td><img decoding="async" loading="lazy" alt="TART Volunteers" src="https://tart.elec.ac.nz/doc/pt/assets/images/public_talks_udm-638c21335978138ad79b5765422932ad.jpg" width="4000" height="3000" class="img_ev3q"></td></tr><tr><td>University students, high-school students and members of the Mauritian community listening to public talks given by workshop presenters, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0‍</a></td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="photos">Photos<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-install-udm#photos" class="hash-link" aria-label="Link direto para Photos" title="Link direto para Photos">​</a></h2>
+<p>The fully assembled TART spiral antenna array is located on the roof of an Engineering Laboratory building on the Bel Air Campus of Université des Mascareignes.</p>
+<p><img decoding="async" loading="lazy" alt="TART Array Assembly" src="https://tart.elec.ac.nz/doc/pt/assets/images/assembled_tart_array_udm-ed4043d36b2f71735af7d3d54295af25.jpg" width="4000" height="3000" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="images">Images<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-install-udm#images" class="hash-link" aria-label="Link direto para Images" title="Link direto para Images">​</a></h2>
+<p>We were delighted to find that the array was easily calibrated and now produces excellent images. Here is an image showing a bright unknown object at about 40 degrees elevation to the North.</p>
+<p><img decoding="async" loading="lazy" alt="TART Array Assembly" src="https://tart.elec.ac.nz/doc/pt/assets/images/tart_udm-2ce669e44ae2ef3bb056cbb1381e9ef3.jpg" width="1280" height="1241" class="img_ev3q"></p>
+<p>This image was made using <a href="https://tart.elec.ac.nz/doc/pt/docs/basics/making-images#using-command-line-tools-recommended">these instructions</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="acknowledgements">Acknowledgements<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-install-udm#acknowledgements" class="hash-link" aria-label="Link direto para Acknowledgements" title="Link direto para Acknowledgements">​</a></h2>
+<p>The TART team would like to thank the <a href="https://www.otago.ac.nz/" target="_blank" rel="noopener noreferrer">University of Otago</a> for providing the hardware, the South African Radio Astronomy Observatory (<a href="https://www.sarao.ac.za/" target="_blank" rel="noopener noreferrer">SARAO</a>) for supporting travel and staff time. We're also extremely grateful to the <a href="https://www.dara-project.org/" target="_blank" rel="noopener noreferrer">DARA project</a> for supporting the accomodation in Mauritus.</p>]]></content>
+        <author>
+            <name>Tim Molteno</name>
+            <uri>https://github.com/tmolteno</uri>
+        </author>
+        <category label="workshop" term="workshop"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First International TART Workshop Oct 2023]]></title>
+        <id>https://tart.elec.ac.nz/doc/pt/blog/first-tart-workshop</id>
+        <link href="https://tart.elec.ac.nz/doc/pt/blog/first-tart-workshop"/>
+        <updated>2023-10-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The first international TART workshop was held at Rhodes University from 9-13 October 2023. This workshop was sponsored by SARAO, and the local organizing committee was led by Dr Stanley Kuja. The press release from SARAO is here.]]></summary>
+        <content type="html"><![CDATA[<p>The first international TART <a href="https://tart.elec.ac.nz/doc/pt/docs/install/workshop">workshop</a> was held at Rhodes University from 9-13 October 2023. This workshop was sponsored by SARAO, and the local organizing committee was led by Dr Stanley Kuja. The press release from SARAO is <a href="https://www.sarao.ac.za/news/low-cost-radio-telescope-brings-new-research-and-training-opportunities-for-african-scientists/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>Members of the TART team were there were myself, Rikus and Ben.</p>
+<table><thead><tr><th></th></tr></thead><tbody><tr><td><img decoding="async" loading="lazy" alt="TART Volunteers" src="https://tart.elec.ac.nz/doc/pt/assets/images/volunteers_at_rhodes-706cb11b23b7aa1c9901b015cba03d1f.jpg" width="1920" height="1280" class="img_ev3q"></td></tr><tr><td>TART volunteers Ben Hugo and Rukus Human along with Takalani, Tim and Oleg  during assembly of the TART array at the workshop.</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tart-installations-in-ska-african-partner-nations">TART installations in SKA African Partner nations<a href="https://tart.elec.ac.nz/doc/pt/blog/first-tart-workshop#tart-installations-in-ska-african-partner-nations" class="hash-link" aria-label="Link direto para TART installations in SKA African Partner nations" title="Link direto para TART installations in SKA African Partner nations">​</a></h2>
+<p>During the workshop it was learned that the South African Radio Astronomy Observatory (SARAO), who host the SKA project in South Africa, will be funding the installation of a TART telescope in many of the SKA African partner nations. These are:</p>
+<ul>
+<li>Botswana</li>
+<li>Ghana</li>
+<li>Kenya</li>
+<li>Madagascar</li>
+<li>Mauritius</li>
+<li>Mozambique</li>
+<li>Namibia</li>
+<li>Zambia</li>
+</ul>
+<p>Delegates from each of these partner nations were present at the workshop, along with astronomers from Italy, Portugal, South Africa and further afield.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="photos">Photos<a href="https://tart.elec.ac.nz/doc/pt/blog/first-tart-workshop#photos" class="hash-link" aria-label="Link direto para Photos" title="Link direto para Photos">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="TART Array Assembly" src="https://tart.elec.ac.nz/doc/pt/assets/images/tart_array_assembly-ad8af2d7ec103f3738c7a57d9e2f35b7.jpg" width="1920" height="1280" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-tart-logo">The TART logo<a href="https://tart.elec.ac.nz/doc/pt/blog/first-tart-workshop#the-tart-logo" class="hash-link" aria-label="Link direto para The TART logo" title="Link direto para The TART logo">​</a></h2>
+<p>We need a logo, and are lucky enough to have a volunteer with a graphics design background to join up! After the logo comes the TART T-shirt. I'd like to make the T-Shirt an annual event.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="team-expansion">Team Expansion<a href="https://tart.elec.ac.nz/doc/pt/blog/first-tart-workshop#team-expansion" class="hash-link" aria-label="Link direto para Team Expansion" title="Link direto para Team Expansion">​</a></h2>
+<p>We've had a good deal of expansion. The TART project has three teams</p>
+<ul>
+<li>Rhodes: Ben, Kenda, Rickus*, Stanley, Oleg</li>
+<li>SARAO: Ben, Oleg, Ruby, Nadeem</li>
+<li>Stellenbosch: Rikus, Danie</li>
+<li>New Zealand: Tim, Phill, Max, Pat</li>
+</ul>
+<p>Rickus (*) gets honorary membership of the Rhodes team for driving from Stellenbosch to Rhodes to help with the installation.</p>]]></content>
+        <author>
+            <name>Tim Molteno</name>
+            <uri>https://github.com/tmolteno</uri>
+        </author>
+        <category label="workshop" term="workshop"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TART project 2022 highlights]]></title>
+        <id>https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress</id>
+        <link href="https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress"/>
+        <updated>2022-12-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The TART project has had a lot to celebrate in 2022. What follows is a brief summary of events that took place.]]></summary>
+        <content type="html"><![CDATA[<p>The TART project has had a lot to celebrate in 2022. What follows is a brief summary of events that took place.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="team-expansion">Team Expansion<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress#team-expansion" class="hash-link" aria-label="Link direto para Team Expansion" title="Link direto para Team Expansion">​</a></h2>
+<p>We've had a good deal of expansion. The TART project has three teams</p>
+<ul>
+<li>Rhodes: Sonia, Ben, Rickus*, Stanley, Oleg, Patrice</li>
+<li>SARAO: Ben, Oleg, Ruby, Nadeem</li>
+<li>Stellenbosch: Rikus, Danie</li>
+<li>New Zealand: Tim, Phill, Max</li>
+</ul>
+<p>Rickus (*) gets honourary membership of the Rhodes team for driving from Stellenbosch to Rhodes to help with the installation.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tart-3-updates">TART-3 Updates<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress#tart-3-updates" class="hash-link" aria-label="Link direto para TART-3 Updates" title="Link direto para TART-3 Updates">​</a></h2>
+<p>The NZ team has been hard at work on TART-3. Progress is now accelerating as the radio module is now in early testing.</p>
+<table><thead><tr><th style="text-align:center">TART-3 Radio Module</th><th style="text-align:center">Features</th></tr></thead><tbody><tr><td style="text-align:center"><img decoding="async" loading="lazy" alt="TART-3 Radio Module" src="https://tart.elec.ac.nz/doc/pt/assets/images/tart3-2460311530e66f4744690054281fa36c.jpg" width="1024" height="1517" class="img_ev3q"></td><td style="text-align:center">Two radios per module, PCI-e connector, Easy to replace modules</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rhodes-tart-comissioning">Rhodes TART comissioning<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress#rhodes-tart-comissioning" class="hash-link" aria-label="Link direto para Rhodes TART comissioning" title="Link direto para Rhodes TART comissioning">​</a></h2>
+<p>Gained coverage in the media thanks to excellent organizing by the Rhodes team (Sonia, Rickus (hon), Stanley, Oleg, Patrice). This telescope was a 3-arm interferometer with a new design that allows easy reconfiguration.</p>
+<table><thead><tr><th style="text-align:center">The Rhodes student team</th><th style="text-align:center">Dignitaries</th></tr></thead><tbody><tr><td style="text-align:center"><img decoding="async" loading="lazy" src="https://tart.elec.ac.nz/doc/pt/assets/images/opening_ceremony-732555857b8c984510b61c24c1ee022b.jpg" width="1600" height="1067" class="img_ev3q"></td><td style="text-align:center"><img decoding="async" loading="lazy" src="https://tart.elec.ac.nz/doc/pt/assets/images/opening_ceremony2-d706cea5d17e1a1969cef69ff069cde9.jpg" width="1600" height="1067" class="img_ev3q"></td></tr><tr><td style="text-align:center"><img decoding="async" loading="lazy" alt="Rhodes Opening Newspaper Clip" src="https://tart.elec.ac.nz/doc/pt/assets/images/TART_Rhodes_news-730e7c4a14e5d559ad1b2cda9229834c.png" width="2127" height="1198" class="img_ev3q"></td><td style="text-align:center"></td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="establishing-a-new-github-home">Establishing a new Github home<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress#establishing-a-new-github-home" class="hash-link" aria-label="Link direto para Establishing a new Github home" title="Link direto para Establishing a new Github home">​</a></h2>
+<p>We began the process of moving the github repositories to a new home (<a href="https://github.com/tart-telescope" target="_blank" rel="noopener noreferrer">https://github.com/tart-telescope</a>). This also involves breaking up the huge monolithic TART repository in to smaller and more managable repositories.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="documentation-updates">Documentation Updates<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress#documentation-updates" class="hash-link" aria-label="Link direto para Documentation Updates" title="Link direto para Documentation Updates">​</a></h2>
+<ul>
+<li>New jupyter notebooks by Ruby (<a href="https://github.com/tart-telescope/notebooks" target="_blank" rel="noopener noreferrer">tart notebooks</a>) these notebooks are going to be used in the inaugural TART workshop held at Rhodes.</li>
+<li>A new website based on Docosaurus  (<a href="https://tart.elec.ac.nz/tart_website/" target="_blank" rel="noopener noreferrer">here</a>)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="measurement-set-updates">Measurement Set updates<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress#measurement-set-updates" class="hash-link" aria-label="Link direto para Measurement Set updates" title="Link direto para Measurement Set updates">​</a></h2>
+<p>Huge work by Ben Hugo on making the TART measurement set tools <a href="https://github.com/tart-telescope/tart2ms" target="_blank" rel="noopener noreferrer">tart2ms</a>. These have allowed some fantastic features:</p>
+<ul>
+<li>Rephasing of observations into a single measurement set.</li>
+<li>Incorporation of Catalogue in JSON into the measurement set.</li>
+<li>This allows potentially much more sensitive imaging!</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="casa-calibration">CASA calibration<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress#casa-calibration" class="hash-link" aria-label="Link direto para CASA calibration" title="Link direto para CASA calibration">​</a></h2>
+<table><thead><tr><th style="text-align:center">Rhodes Calibration with CASA</th><th style="text-align:center">Cal phase vs time</th></tr></thead><tbody><tr><td style="text-align:center"><img decoding="async" loading="lazy" src="https://tart.elec.ac.nz/doc/pt/assets/images/rhodes_cal_results-f35a6e7ec7770388e6bf178604e598c0.png" width="714" height="715" class="img_ev3q"></td><td style="text-align:center"><img decoding="async" loading="lazy" src="https://tart.elec.ac.nz/doc/pt/assets/images/rhodes_gain_vs_t-b8ba5a548f4d43936a225b53e78bc33d.jpg" width="683" height="512" class="img_ev3q"></td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tart-workshops-progress">TART workshops progress<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress#tart-workshops-progress" class="hash-link" aria-label="Link direto para TART workshops progress" title="Link direto para TART workshops progress">​</a></h2>
+<p>Three TART workshops are now in various stages of preparation.</p>
+<ul>
+<li>Jan 16-17: Breakthrough listen @ Rhodes (Stanley, Ben, Oleg)</li>
+<li>Mid 2023: Gabon (Patrice)</li>
+<li>Mid 2023: Ghana (Stanley)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tart-talks-mentions-in-media-etc">TART talks, mentions in media e.t.c<a href="https://tart.elec.ac.nz/doc/pt/blog/tart-2022-progress#tart-talks-mentions-in-media-etc" class="hash-link" aria-label="Link direto para TART talks, mentions in media e.t.c" title="Link direto para TART talks, mentions in media e.t.c">​</a></h2>
+<ul>
+<li>Rhodes opening... (see above)</li>
+<li>Sonia: gave a talk to the RATT group</li>
+<li>Patrice: presented to African Astronomical Society (August?)</li>
+<li>Stanley &amp; Tim: Talk in Kenya (8/12/22)</li>
+</ul>]]></content>
+        <author>
+            <name>Tim Molteno</name>
+            <uri>https://github.com/tmolteno</uri>
+        </author>
+        <category label="calibration" term="calibration"/>
+    </entry>
+</feed>

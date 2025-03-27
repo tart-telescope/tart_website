@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktart_website=self.webpackChunktart_website||[]).push([[6622],{2560:a=>{a.exports=JSON.parse('{"tags":[{"label":"workshop","permalink":"/doc/af/blog/tags/workshop","count":3},{"label":"calibration","permalink":"/doc/af/blog/tags/calibration","count":1}]}')}}]);

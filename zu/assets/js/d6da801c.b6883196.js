@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktart_website=self.webpackChunktart_website||[]).push([[2248],{6217:a=>{a.exports=JSON.parse('{"tags":[{"label":"workshop","permalink":"/doc/zu/blog/tags/workshop","count":3},{"label":"calibration","permalink":"/doc/zu/blog/tags/calibration","count":1}]}')}}]);
