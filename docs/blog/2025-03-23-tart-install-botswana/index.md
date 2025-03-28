@@ -10,7 +10,7 @@ toc_max_heading_level: 5
 
 # Successful TART install in Botswana
 
-A successful TART installation [workshop](/docs/install/workshop) was held at Botswana International University of Science and Technology (BIUST), on March 17-21 2025. 
+A successful TART installation [workshop](/docs/install/workshop) was held at Botswana International University of Science and Technology (BIUST) in Palapye Botswana on March 17-21 2025. 
 
 This workshop was sponsored by the Electronics Research Foundation, the DARA programme, and SARAO. The local organizing committee was led by Dr Fahmi Mokhupuki. This was the first install of the TART-3 electronics. The workshop was presented by the TART team consisting of Prof Oleg Smirnov (Rhodes University, South Africa), Dr Tim Molteno (University of Otago, New Zealand) and Dr Ben Hugo (SARAO, South Africa).
 
@@ -18,9 +18,13 @@ This workshop was sponsored by the Electronics Research Foundation, the DARA pro
 
 |  |
 | --- |
-| ![TART Volunteers](/img/biust_assembly.jpg) |
+| ![BIUST Students](/img/biust_assembly.jpg) |
 | BIUST students assembling the TART spiral array at the workshop.  |
 
+|  |
+| --- |
+| ![TART at BIUST](/img/biust_from_above.jpg) |
+| BIUST students calibrating the antenna positions.  |
 
 ## Acknowledgements
 
