@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 # Imaging from raw data
 
@@ -7,7 +7,7 @@ This script below shows how to image from raw data.
 
 ```
 #
-# Tim Molteno (2018-2022)
+# Tim Molteno (2018-2025)
 # tim@elec.ac.nz
 #
 # About:
@@ -19,7 +19,7 @@ This script below shows how to image from raw data.
 #
 #
 # Usage:
-#   python3 image_from_raw.py --file  ~/Downloads/data_2019-07-24_22_47_14.353231.hdf
+#   python3 image_from_raw.py --file  ~/Downloads/data_2019-07-24_22_47_14.353231.hdf --api https://api.elec.ac.nz/tart/mu-udm
 
 import argparse
 

@@ -9,7 +9,7 @@ import Carousel from '@site/src/components/Carousel';
 
 Let's discover **TART in less than 5 minutes**
 
-The Transient Array Radio Telescope (TART) is an aperture synthesis radio telescope, it uses 24 or 32 radio receivers to create images of the radio sky at 1.575 GHz. The antennas look at the whole sky at once. Data from these receivers are correlated by the TART basestation, and visibilities are generated in real time.  The TART operates in exactly the same way that large radio telescopes like the MeerKAT, SKA and VLA work, and provides an excellent platform for understanding, and develop new algorithms for radio astronomy.
+The Transient Array Radio Telescope (TART) is an aperture synthesis radio telescope, it uses 24 or 32 radio receivers to create images of the radio sky at 1.575 GHz. The antennas look at the whole sky at once. Data from these receivers are correlated by the TART basestation, and visibilities are generated in real time.  The TART operates in exactly the same way that large radio telescopes like the MeerKAT,   VLA work, and provides an excellent platform for understanding, and develop new algorithms for radio astronomy.
 
 |       |      |
 | ---   | ---- |
