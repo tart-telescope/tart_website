@@ -12,7 +12,7 @@ toc_max_heading_level: 5
 
 The TART project has had a lot to celebrate in 2022. What follows is a brief summary of events that took place.
 
-
+<!-- truncate -->
 ## Team Expansion
 
 We've had a good deal of expansion. The TART project has three teams

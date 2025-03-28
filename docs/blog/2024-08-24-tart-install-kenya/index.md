@@ -12,6 +12,8 @@ toc_max_heading_level: 5
 
 A successful TART installation [workshop](/docs/install/workshop) was held at Technical University of Kenya, on August 26-30 2024. This workshop was sponsored by SARAO, and the local organizing committee was led by the Kenyan Space Agency, with the able assistance of Dr Willis Odobo. This was the first install of the new spiral antenna concept, and the first install of a TART telescope in an African partner nations. Three members of the TART team, Prof Oleg Smirnov (Rhodes University, South Africa), Mr Rikus Human (Electronics Research Foundation, New Zealand), Dr Ben Hugo (SARAO, South Africa), travelled to the workshop to help with the install.
 
+<!-- truncate -->
+
 "Taking lessons from the first TART "training the trainers" workshop organized by Dr Stanley Kuja at [Rhodes university in 2023](/blog/first-tart-workshop), as well as lessons from the [first TART install](/blog/tart-install-udm) during April in Mauritius, this workshop and install went smoothly. The team did an amazing job working around flooding in Dubai, as well as flooding in Mauritius, and the telescope was fully operational and making calibrated images on the last day of the workshop -- they did an epic job"
 
 The new array layout is designed to be fabricated on site, with the antennas located on spiral arms at carefully chosen positions that maximize the imaging performance of the TART. 

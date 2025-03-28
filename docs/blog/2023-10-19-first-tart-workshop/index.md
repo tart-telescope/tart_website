@@ -14,6 +14,8 @@ The first international TART [workshop](/docs/install/workshop) was held at Rhod
 
 Members of the TART team were there were myself, Rikus and Ben.
 
+<!-- truncate -->
+
 |  |
 | --- |
 | ![TART Volunteers](/img/volunteers_at_rhodes.jpg) |

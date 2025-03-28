@@ -51,7 +51,7 @@ ant_pos = np.array(ant_pos)
 print(f"Visibilities time: {visibility_data['timestamp']}")
 ```
 
-## Step 1: Apply the calibration to the visibilities.
+## Step 1: Apply the calibration to the visibilities
 
 ```
 gains_complex = np.array(gains['gain']) * np.exp(1.0j*np.array(gains['phase_offset']))
@@ -70,7 +70,7 @@ for v in visibility_data['data']:
     v['bl'] = bl / wavelength
 ```
 
-## Step 2. Grid the visibilities.
+## Step 2. Grid the visibilities
 
 Grid the visibilities in the UV plane.
 
@@ -124,13 +124,13 @@ plt.xlim(-u_scale, u_scale)
 plt.ylim(-u_scale, u_scale)
 plt.savefig('uv_plane.jpg')
 plt.show()
+```
 
-#############################################################################################################
-#
-#                                    Step 3. Do the inverse fourier transform.
-#
-#############################################################################################################
+## Step 3. Do the inverse fourier transform
 
+Once the gridding is done, the image can be created with an inverse Fourier Transform.
+
+```
 
 cal_ift = np.fft.fftshift(fft.ifft2(np.fft.ifftshift(uv_plane)))
 
@@ -138,13 +138,11 @@ cal_ift = np.fft.fftshift(fft.ifft2(np.fft.ifftshift(uv_plane)))
 img = np.abs(cal_ift)
 # Scale it to multiples of the image standard deviation
 img /= np.std(img)
+```
 
+# Step 4. Plot the image
 
-#############################################################################################################
-#
-#                                    Step 4. Plot the image.
-#
-#############################################################################################################
+```
 plt.figure(figsize=(4, 3), dpi=num_bin/4)
 plt.title("Inverse FFT image")
 
