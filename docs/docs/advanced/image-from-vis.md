@@ -72,34 +72,41 @@ for v in visibility_data['data']:
 
 ## Step 2. Grid the visibilities
 
-Grid the visibilities in the UV plane.
+We will find the image using the inverse Fourier Transform of the visibilities. Do do this we have to grid the visibilities in the U-V plane.
+This means filling the u-v plane with the measured visibilites for each baseline.
 
-    I(l,m) = IFFT(V*exp(2*pi*j(u*l + v*m)))
+$$
+    I(l,m) = IFFT(V(u,v))))
+$$
 
 
-    Step1.  Choose pixel resolution (radians per pixel) to be full sky
-            180 degrees in num_bin.
-
-    Step2.  The uv distances are in meters. This can be changed to wavelenths, and
-            then to radians (2.pi*u / wavelength). Maximum u,v values should then be
-            corresponding to the highest resolution in the image. I.e. radians_per_pixel
-
-    Example: 180 deg FOV a 128 pixel image. pix_res = pi / 128
-
-    resolution (rad) = 1.2 lambda / bl_max  = pi / num_bin. ==> num_bin / pi = bl_max / 1.2 lambda
-
-    max_uv(in lambdas) = num_bin / 1.2 np.pi
-
+The resolution, $R$ in radians, from a baseline of length $b$, is given by the Rayleigh criterion:
+$$
+R = \frac{1.2 \lambda}{b},
+$$
+where $\lambda$ is the wavelength. We know that the pixel resolution should be equal to $\frac{\pi}{N_{FFT}}$, so we get the expression
+$$
+\frac{1.2 \lambda}{b_{max}} = \frac{\pi}{N_{FFT}}
+$$
+where $b_{max}$ is the maximum u-v coordinate. Rearranging
+$$
+\frac{b_{max}}{\lambda} = \frac{N_{FFT}}{1.2 \pi} 
+$$
+so we now know that the u-v plane should have a maximum u-v value (measured in wavelengths) of $\sim \frac{N_{FFT}}{4}$, and the center of the U-V plane whould 
+be at 0,0. This means we can now scale the baselines to fit onto the plane.
 ```
-num_bin = 256
-uv_plane = np.zeros((num_bin, num_bin), dtype=np.complex64)
+N_FFT = 256
+uv_plane = np.zeros((N_FFT, N_FFT), dtype=np.complex64)
 
-u_scale = num_bin / (1.2 * np.pi)
-middle = num_bin // 2
+u_scale = N_FFT / (1.2 * np.pi)
+middle = N_FFT // 2
 
 
 def uv_index(u):
-    pixels = (u / u_scale)*(num_bin/2)
+    ''' A little function to produce the index into the u-v array
+        for a given value (u, measured in wavelengths)
+    '''
+    pixels = (u / u_scale)*(N_FFT/2)
     u_pix = middle + pixels
     return int(u_pix)
 
@@ -110,12 +117,13 @@ for v in visibility_data['data']:
     v_idx = uv_index(vv)
     uv_plane[u_idx, v_idx] += v['cal']
 
+    # Place the conjugate visibility at -uu, -vv
     u_idx = uv_index(-uu)
     v_idx = uv_index(-vv)
     uv_plane[u_idx, v_idx] += np.conj(v['cal'])
 
 
-plt.figure(figsize=(4, 3), dpi=num_bin/6)
+plt.figure(figsize=(4, 3), dpi=N_FFT/6)
 plt.title("U-V plane image")
 
 plt.imshow(np.abs(uv_plane), extent=[-u_scale, u_scale, -u_scale, u_scale])
@@ -143,7 +151,7 @@ img /= np.std(img)
 # Step 4. Plot the image
 
 ```
-plt.figure(figsize=(4, 3), dpi=num_bin/4)
+plt.figure(figsize=(4, 3), dpi=N_FFT/4)
 plt.title("Inverse FFT image")
 
 print("Dynamic Range: {}".format(np.max(img)))
