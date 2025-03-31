@@ -84,13 +84,13 @@ The resolution, $R$ in radians, from a baseline of length $b$, is given by the R
 $$
 R = \frac{1.2 \lambda}{b},
 $$
-where $\lambda$ is the wavelength. We know that the pixel resolution should be equal to $\frac{\pi}{N_{FFT}}$, so we get the expression
+where $\lambda$ is the wavelength. As the image is going to be full-sky, know that the pixel resolution should be equal to $\frac{\pi}{N_{FFT}}$. This means that we get the expression
 $$
-\frac{1.2 \lambda}{b_{max}} = \frac{\pi}{N_{FFT}}
+\frac{1.2 \lambda}{uv_{max}} = \frac{\pi}{N_{FFT}}
 $$
-where $b_{max}$ is the maximum u-v coordinate. Rearranging
+where $uv_{max}$ is the maximum u-v coordinate. Rearranging
 $$
-\frac{b_{max}}{\lambda} = \frac{N_{FFT}}{1.2 \pi} 
+\frac{uv_{max}}{\lambda} = \frac{N_{FFT}}{1.2 \pi} 
 $$
 so we now know that the u-v plane should have a maximum u-v value (measured in wavelengths) of $\sim \frac{N_{FFT}}{4}$, and the center of the U-V plane whould 
 be at 0,0. This means we can now scale the baselines to fit onto the plane.
@@ -98,7 +98,7 @@ be at 0,0. This means we can now scale the baselines to fit onto the plane.
 N_FFT = 256
 uv_plane = np.zeros((N_FFT, N_FFT), dtype=np.complex64)
 
-u_scale = N_FFT / (1.2 * np.pi)
+uv_max = N_FFT / (1.2 * np.pi)
 middle = N_FFT // 2
 
 
@@ -106,7 +106,7 @@ def uv_index(u):
     ''' A little function to produce the index into the u-v array
         for a given value (u, measured in wavelengths)
     '''
-    pixels = (u / u_scale)*(N_FFT/2)
+    pixels = (u / uv_max)*(N_FFT/2)
     u_pix = middle + pixels
     return int(u_pix)
 
@@ -126,10 +126,10 @@ for v in visibility_data['data']:
 plt.figure(figsize=(4, 3), dpi=N_FFT/6)
 plt.title("U-V plane image")
 
-plt.imshow(np.abs(uv_plane), extent=[-u_scale, u_scale, -u_scale, u_scale])
+plt.imshow(np.abs(uv_plane), extent=[-uv_max, uv_max, -uv_max, uv_max])
 
-plt.xlim(-u_scale, u_scale)
-plt.ylim(-u_scale, u_scale)
+plt.xlim(-uv_max, uv_max)
+plt.ylim(-uv_max, uv_max)
 plt.savefig('uv_plane.jpg')
 plt.show()
 ```
