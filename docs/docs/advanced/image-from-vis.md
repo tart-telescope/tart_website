@@ -21,9 +21,8 @@ import numpy.fft as fft
 ## Step 1: Download required data
 
 Each TART has a [public api](/docs/basics/tart-api), from which the required data can be downloaded.
-First we create a little helper function to get an api response in json form.
-
-
+First we create a little helper function to get an api response in json form. We also check that the telescope
+is in the correct mode for collecting visibility data...
 ```
 API_SERVER = 'https://api.elec.ac.nz/tart/mu-udm'
 
@@ -40,9 +39,8 @@ if mode['mode'] != 'vis':
 
 ```
 
-Next we Get visibility data, and calibration data (gains) from the TART telescope web interface
+Next we get the visibility data, calibration data (gains), and antenna positions from the TART telescope web interface
 ```
-
 gains = get_api('calibration/gain')
 visibility_data = get_api('imaging/vis')
 ant_pos = get_api('imaging/antenna_positions')
@@ -53,10 +51,14 @@ print(f"Visibilities time: {visibility_data['timestamp']}")
 
 ## Step 1: Apply the calibration to the visibilities
 
+Now we apply the [calibration](/docs/advanced/calibration) to the measured visibilities. This means multiplying each visibility by the 
+complex gain (consisting of the magnitude gain and the phase offset). 
+
+We also work out the baseline, and scale the baselines to be in units of the wavelength. 
 ```
 gains_complex = np.array(gains['gain']) * np.exp(1.0j*np.array(gains['phase_offset']))
 
-wavelength = 0.2
+wavelength = 2.99793e8 / 1.57542e9   # wavelength is speed of light / frequency
 
 for v in visibility_data['data']:
     v_complex = v['re'] + v['im']*1.0j
@@ -72,7 +74,7 @@ for v in visibility_data['data']:
 
 ## Step 2. Grid the visibilities
 
-We will find the image using the inverse Fourier Transform of the visibilities. Do do this we have to grid the visibilities in the U-V plane.
+We will find the image using the inverse Fourier Transform of the visibilities. Do do this we have to grid the visibilities in the u-v plane.
 This means filling the u-v plane with the measured visibilites for each baseline.
 
 $$
@@ -137,9 +139,7 @@ plt.show()
 ## Step 3. Do the inverse fourier transform
 
 Once the gridding is done, the image can be created with an inverse Fourier Transform.
-
 ```
-
 cal_ift = np.fft.fftshift(fft.ifft2(np.fft.ifftshift(uv_plane)))
 
 # Take the absolute value to make an intensity image
