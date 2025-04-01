@@ -3,7 +3,8 @@ sidebar_position: 5
 ---
 # Imaging from visibilities
 
-The script below will create a simple image from TART visibilities. 
+The script below will create a simple image from TART visibilities.  To my knowledge, this is the 
+simplest way to make images from a radio telescope. No specialized packages are required.
 
 There are five steps. Each is relatively simple on its own. 
 
@@ -11,7 +12,7 @@ There are five steps. Each is relatively simple on its own.
 ## Pre-requisites
 
 This script requires standard python packages: numpy, matplotlib, and requests
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 import requests
@@ -21,14 +22,24 @@ import numpy.fft as fft
 ## Step 1: Download required data
 
 Each TART has a [public api](/docs/basics/tart-api), from which the required data can be downloaded.
-First we create a little helper function to get an api response in json form. We also check that the telescope
+First we create a little helper function to get an api response in JSON form. We also check that the telescope
 is in the correct mode for collecting visibility data...
-```
+
+JSON data is just text. So you can have a look at the data in your browser for each API call. The little helper function below
+will print out the URL so you can have a look at the data yourself.
+
+* [Visibilities](https://api.elec.ac.nz/tart/mu-udm/api/v1/imaging/vis)
+* [Antenna Positions](https://api.elec.ac.nz/tart/mu-udm/api/v1/imaging/antenna_positions)
+* [Calibration Gains](https://api.elec.ac.nz/tart/mu-udm/api/v1/calibration/gain)
+
+```python
 API_SERVER = 'https://api.elec.ac.nz/tart/mu-udm'
 
 
 def get_api(api):
-    response = requests.get(f"{API_SERVER}/api/v1/{api}")
+    url = f"{API_SERVER}/api/v1/{api}"
+    print(f"Try it yourself: {url}")
+    response = requests.get(url)
     return response.json()
 
 print(f"Downloading data from {API_SERVER}")
@@ -40,7 +51,7 @@ if mode['mode'] != 'vis':
 ```
 
 Next we get the visibility data, calibration data (gains), and antenna positions from the TART telescope web interface
-```
+```python
 gains = get_api('calibration/gain')
 visibility_data = get_api('imaging/vis')
 ant_pos = get_api('imaging/antenna_positions')
@@ -49,13 +60,13 @@ ant_pos = np.array(ant_pos)
 print(f"Visibilities time: {visibility_data['timestamp']}")
 ```
 
-## Step 1: Apply the calibration to the visibilities
+## Step 2: Apply the calibration to the visibilities
 
 Now we apply the [calibration](/docs/advanced/calibration) to the measured visibilities. This means multiplying each visibility by the 
 complex gain (consisting of the magnitude gain and the phase offset). 
 
 We also work out the baseline, and scale the baselines to be in units of the wavelength. 
-```
+```python
 gains_complex = np.array(gains['gain']) * np.exp(1.0j*np.array(gains['phase_offset']))
 
 wavelength = 2.99793e8 / 1.57542e9   # wavelength is speed of light / frequency
@@ -72,7 +83,7 @@ for v in visibility_data['data']:
     v['bl'] = bl / wavelength
 ```
 
-## Step 2. Grid the visibilities
+## Step 3. Grid the visibilities
 
 We will find the image using the inverse Fourier Transform of the visibilities. Do do this we have to grid the visibilities in the u-v plane.
 This means filling the u-v plane with the measured visibilites for each baseline.
@@ -96,7 +107,7 @@ $$
 $$
 so we now know that the u-v plane should have a maximum u-v value (measured in wavelengths) of $\sim \frac{N_{FFT}}{4}$, and the center of the U-V plane whould 
 be at 0,0. This means we can now scale the baselines to fit onto the plane.
-```
+```python
 N_FFT = 256
 uv_plane = np.zeros((N_FFT, N_FFT), dtype=np.complex64)
 
@@ -136,10 +147,10 @@ plt.savefig('uv_plane.jpg')
 plt.show()
 ```
 
-## Step 3. Do the inverse fourier transform
+## Step 4. Do the inverse fourier transform
 
 Once the gridding is done, the image can be created with an inverse Fourier Transform.
-```
+```python
 cal_ift = np.fft.fftshift(fft.ifft2(np.fft.ifftshift(uv_plane)))
 
 # Take the absolute value to make an intensity image
@@ -148,9 +159,9 @@ img = np.abs(cal_ift)
 img /= np.std(img)
 ```
 
-# Step 4. Plot the image
+# Step 5. Plot the image
 
-```
+```python
 plt.figure(figsize=(4, 3), dpi=N_FFT/4)
 plt.title("Inverse FFT image")
 
