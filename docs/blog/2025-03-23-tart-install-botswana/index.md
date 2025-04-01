@@ -28,4 +28,4 @@ This workshop was sponsored by the Electronics Research Foundation, the DARA pro
 
 ## Acknowledgements
 
-The TART team would like to thank the [University of Otago](https://www.otago.ac.nz) for providing the hardware, the South African Radio Astronomy Observatory ([SARAO](https://www.sarao.ac.za)) for supporting travel and staff time. We're also extremely grateful to the [DARA project](https://www.dara-project.org/) for supporting the accomodation in Palapye for the TART team.
+The TART team would like to thank the [University of Otago](https://www.otago.ac.nz) for support with the hardware, ([Rhodes University](https://ru.ac.za)) for supporting travel and staff time. We're also extremely grateful to the [DARA project](https://www.dara-project.org/) for supporting the accomodation in Palapye for the entire TART team, and to [SARAO](https://sarao.ac.za) for contributing towards the cost of hardware as well as staff time (Ben Hugo)

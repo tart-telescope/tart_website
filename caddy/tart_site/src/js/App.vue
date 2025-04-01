@@ -26,8 +26,10 @@ import Footer from '../components/AppFooter.vue';
       <h3>News</h3>
       <ul>
       <li>See TART on display at the IAU General Assembly in Cape Town 2024</li>
-      <li>Next TART workshop: Kenya 26nd August 2024</li>
-      <li>Successful <a href="https://tart.elec.ac.nz/doc/blog/tart-install-udm">TART workshop in Mauritius</a> 22nd April 2024</li>
+      <li><a href="https://tart.elec.ac.nz/doc/blog/tart-install-udm">TART workshop in Mauritius</a> 22nd April 2024</li>
+      <li><a href="https://tart.elec.ac.nz/doc/blog/tart-install-kenya">TART workshop in Kenya</a> 26nd August 2024</li>
+      <li>New! <a href="https://tart.elec.ac.nz/doc/blog/tart-install-botswana">TART workshop in Botswana</a> 17-21 March 2025</li>
+      <li>Next TART workshop: Zambia at copperbelt university: May 2025</li>
       </ul>
       
 <div id="carouselTART" class="carousel carousel-dark slide">
