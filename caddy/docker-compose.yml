@@ -10,7 +10,6 @@ services:
             - $PWD/Caddyfile:/etc/caddy/Caddyfile
             - $PWD/site:/srv
             - $PWD/elec_site:/elec_site
-            - $PWD/html:/srvviewer
             - /home/tart/ops/object_position_server/app/doc:/doc
             - caddy_data:/data
             - caddy_config:/config

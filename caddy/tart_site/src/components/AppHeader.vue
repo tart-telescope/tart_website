@@ -33,8 +33,8 @@
                         Live Telescopes
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="https://api.elec.ac.nz/tart/mu-udm/">Mauritius</a></li>
-                        <li><a class="dropdown-item" href="https://maxscheel.gitlab.io/tart-vuer/">Alternate Web App</a></li>
+                        <li><a class="dropdown-item" href="https://map.elec.ac.nz/">Map of TART Telescopes</a></li>
+                        <li><a class="dropdown-item" href="https://tart.elec.ac.nz/viewer/">Alternate Web Viewer</a></li>
                       </ul>
                     </li>
                     <li class="nav-item dropdown">

@@ -17,7 +17,7 @@ import Footer from '../components/AppFooter.vue';
         The telescope is also designed to serve as a platform for the
         development of new imaging algorithms.
       </p>
-      <img :src="'../img/tart_logo.svg'" width=30>
+      <img right :src="'../img/tart_logo_box.svg'" width=300>
 
       <p>
         The TART telescope is an open source project. Development is

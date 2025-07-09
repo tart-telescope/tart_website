@@ -12,8 +12,8 @@ export default {
           title: 'TART documentation',
         },
         {
-          url: 'https://api.elec.ac.nz/tart/mu-udm/',
-          title: 'Live telescope viewer',
+          url: 'https://map.elec.ac.nz',
+          title: 'Live telescope world map',
         },
         {
           url: 'https://tart.elec.ac.nz/doc/docs/basics/tart-api',
