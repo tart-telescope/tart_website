@@ -17,6 +17,7 @@ import Footer from '../components/AppFooter.vue';
         The telescope is also designed to serve as a platform for the
         development of new imaging algorithms.
       </p>
+      <img :src="'../img/tart_logo.svg'" width=30>
 
       <p>
         The TART telescope is an open source project. Development is
@@ -29,7 +30,8 @@ import Footer from '../components/AppFooter.vue';
       <li><a href="https://tart.elec.ac.nz/doc/blog/tart-install-udm">TART workshop in Mauritius</a> 22nd April 2024</li>
       <li><a href="https://tart.elec.ac.nz/doc/blog/tart-install-kenya">TART workshop in Kenya</a> 26nd August 2024</li>
       <li>New! <a href="https://tart.elec.ac.nz/doc/blog/tart-install-botswana">TART workshop in Botswana</a> 17-21 March 2025</li>
-      <li>Next TART workshop: Zambia at copperbelt university: May 2025</li>
+      <li>New! <a href="https://tart.elec.ac.nz/doc/blog/tart-install-zambia">TART workshop in Zambia</a> 2-7 June 2025</li>
+      <li>Next TART workshop: Ghana at Ghana Radio Observatory: August 2025</li>
       </ul>
       
 <div id="carouselTART" class="carousel carousel-dark slide">
