@@ -1,1 +1,1 @@
-rsync -rv --progress Caddyfile tart@tart.elec.ac.nz:caddy/Caddyfile
+rsync -rv --progress Caddyfile docker-compose.yml tart@tart.elec.ac.nz:caddy/

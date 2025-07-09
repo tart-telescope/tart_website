@@ -11,23 +11,12 @@ tart.elec.ac.nz {
         reverse_proxy /api/* host.docker.internal:9005
 
         route /viewer/* {
-                uri strip_prefix /viewer
-                root * /srvviewer
-                try_files {path} /
-                file_server
-                #reverse_proxy viewer:80
-        }
-
-        route /3/* {
-                uri strip_prefix /3
-                reverse_proxy host.docker.internal:8880
+                reverse_proxy viewer:80
         }
 
         route /catalog/doc/* {
                 uri strip_prefix /catalog/doc
                 reverse_proxy host.docker.internal:8877
-                # root * /doc
-                # file_server
         }
 
         route /catalog/* {
@@ -35,26 +24,14 @@ tart.elec.ac.nz {
                 reverse_proxy host.docker.internal:8876
         }
 
-        reverse_proxy /signal/* host.docker.internal:8080
-        reverse_proxy /tartza/* host.docker.internal:8080
-        reverse_proxy /rhodes/* host.docker.internal:8080
+        redir /signal/* /viewer/nz-elec
+        redir /rhodes/* /viewer/za-rhodes
 
-        # Serve everything else from the file system
-        # Templates give static sites some dynamic features
-        #templates
-        #
-        #
-        #
         redir /docs /doc permanent
         redir /docs/* /doc permanent
         redir /tart_website /doc
         redir /tart_website/ /doc
 
-        # route /tart_website/* {
-        #       reverse_proxy https://tart-telescope.github.io {
-        #               header_up Host {upstream_hostport}
-        #       }
-        #}
 
         root * /srv
         file_server

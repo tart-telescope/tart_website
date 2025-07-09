@@ -1,4 +1,3 @@
-version: '2'
 
 services:
     caddy:
@@ -25,29 +24,9 @@ services:
                 max-size: "1m"
 
 
-    # tailscale:
-    #     container_name: tailscaled
-    #     image: tailscale/tailscale
-    #     network_mode: host
-    #     cap_add:
-    #         - NET_ADMIN
-    #         - NET_RAW
-    #     volumes:
-    #         - /dev/net/tun:/dev/net/tun
-    #         - /home/io/docker_config/tailscale/varlib:/var/lib
-    #         # https://github.com/tailscale/tailscale/issues/6849
-    #         # add volume for the tailscaled.sock to be present on the host system
-    #         # that's where caddy goes to communicate with tailscale
-    #         - /home/io/docker_config/tailscale/tmp:/tmp
-    #     environment:
-    #         # https://github.com/tailscale/tailscale/issues/4913#issuecomment-1186402307
-    #         # we have to tell the container to put the state in the same folder
-    #         # that way the state is saved on the host and survives reboot of the container
-    #         - TS_STATE_DIR=/var/lib/tailscale
-    #         # this have to be used only on the first time
-    #         # after that, the state is saved in /var/lib/tailscale and the next line can be commented out
-    #         - TS_AUTH_KEY= < your generated key >
-    #
+    viewer:
+        image: ghcr.io/tart-telescope/web_app/viewer-subpath:sha-95f3a7e-amd64
+
 volumes:
     caddy_data:
         external: true
