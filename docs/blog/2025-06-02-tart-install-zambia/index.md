@@ -42,4 +42,6 @@ The TART team would like to thank the [University of Otago](https://www.otago.ac
 
 ## Links
 
+* https://satelliteprome.com/news/zambia-joins-africas-radio-astronomy-network-with-tart-telescope/
 * https://www.ru.ac.za/latestnews/telescopeprojectequipsafricanuniversitieswithpracticalradioastronomytea.html
+* https://satelliteprome.com/news/zambia-joins-africas-radio-astronomy-network-with-tart-telescope/

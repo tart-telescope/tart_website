@@ -12,6 +12,7 @@ toc_max_heading_level: 5
 
 Le projet TART a eu beaucoup à célébrer en 2022. Ce qui suit est un bref résumé des événements qui ont eu lieu.
 
+<!-- truncate -->
 
 ## Élargissement de l'équipe
 
