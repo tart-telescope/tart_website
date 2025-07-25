@@ -35,7 +35,7 @@ const FeatureList = [
   },
   {
     title: collaborate.title,
-    Svg: require('@site/static/img/logo.svg').default,
+    Svg: require('@site/static/img/tart_logo.svg').default,
     description: (
       <>
         <Translate>The TART team on has an array of interesting research projects at all levels from citizen science through undergraduate, to M.Sc and Ph.D projects. New members are welcome, and we can help with joint supervision of student projects with one of the partner insitutions.</Translate>
