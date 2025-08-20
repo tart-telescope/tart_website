@@ -18,7 +18,7 @@ The Transient Array Radio Telescope (TART) is an aperture synthesis radio telesc
 
 ## The telescope web interface
 
-Each TART telescope has a web interface. These are web applications that get data from the  [TART web API](./basics/tart-api) and create images and allow you to control the telescope. Here is the web interface for the [Dunedin New Zealand TART](https://tart.elec.ac.nz/signal/home).
+Each TART telescope has a web interface. These are web applications that get data from the  [TART web API](./basics/tart-api) and create images and allow you to control the telescope. Here is a [Map of all TARTS](https://map.elec.ac.nz). Click on any of these to see the live view.
 
 ## The components of a TART telescope
 

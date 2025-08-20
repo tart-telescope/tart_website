@@ -11,7 +11,7 @@ Creating images in TART is requires three things
 
 ## Using the TART web interface
 
-The easiest way to make images is to use the web interface. A public web interface is available [here](https://tart.elec.ac.nz/signal/home).
+The easiest way to make images is to use the web interface. A public web interface is for each is available from the live map [here](https://map.elec.ac.nz).
 
 ## Using command line tools (recommended)
 
@@ -19,7 +19,7 @@ This requires the tart_tools, tart2ms and disko python packages ```pip install t
 
 Step 1: Download data to an HDF file
 ```
-tart_download_data --n 1 --api https://tart.elec.ac.nz/UdM --vis --file tart_udm.hdf
+tart_download_data --n 1 --api https://api.elec.ac.nz/tart/mu-udm --vis --file tart_udm.hdf
 ```
 
 Step 2: Turn the downloaded data into a measurement set using tart2ms
