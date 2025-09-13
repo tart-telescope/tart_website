@@ -27,7 +27,7 @@ As part of the workshop a day was devoted to public talks on the TART project (T
 |  |
 | --- |
 | ![TART Volunteers](img/tart-kenya.jpg) |
-| The TART kenya install on the roof of the Technical University of Kenya with the Nairobi skyline in the background. Image Mark, licensed under [CC BY 4.0‍]( https://creativecommons.org/licenses/by/4.0/) |
+| The TART kenya install on the roof of the Technical University of Kenya with the Nairobi skyline in the background. Image Mark Ndonga (KSA), licensed under [CC BY 4.0‍]( https://creativecommons.org/licenses/by/4.0/) |
 
 
 ## Photos
@@ -37,7 +37,7 @@ The fully assembled TART spiral antenna array is located on the roof of an Engin
 |  |
 | --- |
 | ![TART Array Assembly](img/tart-kenya-ir.jpg) |
-| University students, high-school students and members of the Mauritian community listening to public talks given by workshop presenters, licensed under [CC BY 4.0‍]( https://creativecommons.org/licenses/by/4.0/) |
+| IR view of the TART in Kenya. Image Mark Ndonga (KSA) licensed under [CC BY 4.0‍]( https://creativecommons.org/licenses/by/4.0/) |
 
 ## Images
 
