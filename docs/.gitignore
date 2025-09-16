@@ -1,4 +1,5 @@
 # Dependencies
+*.pnp*
 yarn.lock
 /node_modules
 
