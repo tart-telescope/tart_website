@@ -1,1 +1,1 @@
-rsync -rv --progress docs/build/ tart@tart.elec.ac.nz:caddy/site/doc
+rsync -rv --progress docs/build/ tart@tart.elec.ac.nz:caddy/site/
