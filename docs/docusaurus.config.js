@@ -12,7 +12,7 @@ const config = {
   title: 'Transient Array Radio Telescope',
   tagline: 'TART: Open-source Aperture-Synthesis Radio Telescope',
   url: 'https://tart.elec.ac.nz/',
-  baseUrl: 'doc/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -75,7 +75,7 @@ const config = {
         title: 'TART',
         logo: {
           alt: 'TART Logo',
-          src: 'img/elec_logo.svg',
+          src: '/img/elec_logo.svg',
         },
         items: [
           {
@@ -116,8 +116,8 @@ const config = {
                 href: 'https://t.me/+a_jZzTz1PyFhNmIz',
               },
               {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/tmolteno/',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/transient-array-radio-telescope-tart/',
               },
             ],
           },
