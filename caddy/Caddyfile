@@ -24,14 +24,6 @@ tart.elec.ac.nz {
                 reverse_proxy host.docker.internal:8876
         }
 
-        redir /signal/* /viewer/nz-elec
-        redir /rhodes/* /viewer/za-rhodes
-
-        redir /docs /doc permanent
-        redir /docs/* /doc permanent
-        redir /tart_website /doc
-        redir /tart_website/ /doc
-
 
         root * /srv
         file_server

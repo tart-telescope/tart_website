@@ -10,7 +10,7 @@ This is structured as a tutorial. I estimate that this will take a person with m
 
 ## Pre-requisites
 
-* Create a free AWS account. [This can be done here](aws.amazon.com). There is a getting started guide [here](https://aws.amazon.com/getting-started/?ref=docs_gateway).
+* Create a free AWS account. [This can be done here](https://aws.amazon.com). There is a getting started guide [here](https://aws.amazon.com/getting-started/?ref=docs_gateway).
 
 # Step 1: Launch an EC2 instance
 

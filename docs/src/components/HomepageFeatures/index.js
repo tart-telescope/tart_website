@@ -1,51 +1,70 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
-import Translate, {translate} from '@docusaurus/Translate';
+import Translate, { translate } from "@docusaurus/Translate";
 
-import Carousel from '@site/src/components/Carousel';
+import Carousel from "@site/src/components/Carousel";
 
-const easy_to_use = {id: 'easy_to_use', title: <Translate>Live Imaging of the Radio Sky</Translate>}
-const focus_matters = {id: 'focus_matters', title: <Translate>Focus on what matters</Translate>}
-const collaborate = {id: 'collaborate', title: <Translate>Collaborate</Translate>}
-
+const easy_to_use = {
+  id: "easy_to_use",
+  title: <Translate>Live Views of the Radio Sky</Translate>,
+};
+const focus_matters = {
+  id: "focus_matters",
+  title: <Translate>Enter the exciting world of radio astronomy</Translate>,
+};
+const collaborate = {
+  id: "collaborate",
+  title: <Translate>Collaborate</Translate>,
+};
 
 const FeatureList = [
   {
     title: easy_to_use.title,
-    Svg: require('@site/static/img/signal_small.svg').default,
+    Svg: require("@site/static/img/signal_small.svg").default,
     description: (
       <>
-        <Translate>TART was designed from the ground up to be easily installed and
-        easy to use. Get your radio astronomy projects up and running quickly.</Translate>
+        <Translate>
+          TART was designed from the ground up to be easily installed and easy
+          to use. Build your own aperture synthesis radio telescope, understand
+          how it works and share your results with the world. Use TART to
+          explore and track radio sources in real-time.
+        </Translate>
       </>
     ),
   },
   {
     title: focus_matters.title,
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        TART is <b>open-source</b> hosted by the Electronics Research Foundation in New Zealand. You can modify, access and explore every part of a modern aperture
-        synthesis radio telescope. Raw data can be examined, the array layout modified and more.
+        TART is <b>open-source</b> hosted by the Electronics Research Foundation
+        in New Zealand. You can modify, access and explore every part of a
+        modern aperture synthesis radio telescope. Raw data can be examined, the
+        array layout modified and more.
       </>
     ),
   },
   {
     title: collaborate.title,
-    Svg: require('@site/static/img/tart_logo.svg').default,
+    Svg: require("@site/static/img/tart_logo.svg").default,
     description: (
       <>
-        <Translate>The TART team on has an array of interesting research projects at all levels from citizen science through undergraduate, to M.Sc and Ph.D projects. New members are welcome, and we can help with joint supervision of student projects with one of the partner insitutions.</Translate>
+        <Translate>
+          The TART team on has an array of interesting research projects at all
+          levels from citizen science through undergraduate, to M.Sc and Ph.D
+          projects. New members are welcome, and we can help with joint
+          supervision of student projects with one of the partner insitutions.
+        </Translate>
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
