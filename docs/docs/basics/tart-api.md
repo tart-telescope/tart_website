@@ -19,7 +19,7 @@ API documentation is available here: https://api.elec.ac.nz/docs/
 
 ## The source catalogue
 
-There is an online API for getting source positions in the GPS sky. It is documented at (https://tart.elec.ac.nz/catalog/doc/index.html). 
+There is an online API for getting source positions in the GPS sky. It is documented at (https://tart.elec.ac.nz/catalog/docs/). 
 
 Here is a [link to the current objects above signal hill](https://tart.elec.ac.nz/catalog/catalog?lat=-45.85&lon=170.54)
 
