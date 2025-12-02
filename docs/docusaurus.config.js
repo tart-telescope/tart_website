@@ -92,6 +92,11 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            href: "https://map.elec.ac.nz",
+            label: "TART Map",
+            position: "right",
+          },
         ],
       },
       footer: {
