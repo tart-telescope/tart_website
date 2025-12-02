@@ -14,8 +14,7 @@ One doesn't need a login to capture data from a TART telescope. All data is publ
 
 ## Using the API directly
 
- The authentication is only need for API requests that modify the telescope properties (like uploading calibration gains and phases).THe API for the telescope is documented online (https://api.elec.ac.nz/tart/mu-udm/doc/) and shows the restful API calls that can be made.
-To get imaging data try the (https://api.elec.ac.nz/tart/mu-udm/doc/#api-Imaging-get_latest_vis)
+ The authentication is only need for API requests that modify the telescope properties (like uploading calibration gains and phases).THe API for the telescope is documented online (https://api.elec.ac.nz/docs/) and shows the restful API calls that can be made.
 ```
     wget -O test.json  https://api.elec.ac.nz/tart/mu-udm/api/v1/imaging/vis
 ```
@@ -35,7 +34,7 @@ You can install the tart2ms python package which will give you some command line
 
 Download a single snapshot
 
-```tart2ms --ms obs.ms --api https://tart.elec.ac.nz/signal```
+```tart2ms --ms obs.ms --api https://api.elec.ac.nz/tart/signal```
 
 Download 1 minute worth of visibilities, and combine them into a single observation
 

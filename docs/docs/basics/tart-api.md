@@ -1,8 +1,8 @@
 # The TART API
 
-One doesn't need a login to capture data from the telescopes. The authentication is only need for API requests that modify the telescope properties (like uploading calibration gains and phases). The API for the telescope is documented online (https://api.elec.ac.nz/tart/mu-udm/doc/) and shows the restful API calls that can be made.
+One doesn't need a login to capture data from the telescopes. The authentication is only need for API requests that modify the telescope properties (like uploading calibration gains and phases). The API for the telescope is documented online (https://api.elec.ac.nz/docs/) and shows the restful API calls that can be made.
 
-To get imaging data we will call the [imaging/vis](https://api.elec.ac.nz/tart/mu-udm/doc/#api-Imaging-get_latest_vis) endpoint.
+To get imaging data we will call the [imaging/vis](https://api.elec.ac.nz/docs/#/imaging/get_latest_vis_imaging_vis_get) endpoint.
 
 ```
 wget -O test.json  https://api.elec.ac.nz/tart/mu-udm/api/v1/imaging/vis
@@ -14,7 +14,7 @@ Try this in your browser by [clicking here](https://api.elec.ac.nz/tart/mu-udm/a
 
 ## API documentation
 
-API documentation is available here: https://api.elec.ac.nz/tart/mu-udm/doc/
+API documentation is available here: https://api.elec.ac.nz/docs/
 
 
 ## The source catalogue
