@@ -39,10 +39,12 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        TART is <b>open-source</b> hosted by the Electronics Research Foundation
-        in New Zealand. You can modify, access and explore every part of a
-        modern aperture synthesis radio telescope. Raw data can be examined, the
-        array layout modified and more.
+        TART is <b>open-source</b>, hosted by the Electronics Research
+        Foundation in New Zealand and forms a{" "}
+        <a href="https://map.elec.ac.nz">worldwide network</a> of radio
+        telescopes. You can modify, access and explore every part of a modern
+        aperture synthesis radio telescope. Raw data can be examined, the array
+        layout modified and more.
       </>
     ),
   },
