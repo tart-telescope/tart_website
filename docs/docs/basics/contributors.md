@@ -7,7 +7,7 @@ Here is a list of the core contributors to the TART project source code. There a
 
 <img  src={require('/img/Tim.jpg').default}  alt="Tim Molteno" height="400px" /> 
 
-Dr Tim Molteno is a Senior Lecturer in Physics at the University of Otago, New Zealand, Senior Research Associate, Physics and Electronics, Rhodes University, South Africa, and Director of the Electronics Research Foundation. He is an expert on Nonlinear Dynamics, Bayesian Inference, Measurement, Electronics, Signal Processing and  Radio Astronomy Instrumentation. Ten years ago he founded the Transient Array Radio Telescope (TART) project. Tim has contributed code to many many parts of the TART project, his recent contributions include tart-cargo, disko, tart2ms, spotless, the version 3 hardware for the correlator, motherboard and radio-board as well as the current calibration system.
+Dr Tim Molteno is a Senior Lecturer in Physics at the University of Otago, New Zealand, Senior Research Associate, Physics and Electronics, Rhodes University, South Africa, and Director of the Electronics Research Foundation. He is an expert on Nonlinear Dynamics, Bayesian Inference, Measurement, Electronics, Signal Processing and  Radio Astronomy Instrumentation. Twelve years ago he founded the Transient Array Radio Telescope (TART) project. Tim has contributed code to many many parts of the TART project, his recent contributions include tart-cargo, disko, tart2ms, spotless, the version 3 hardware for the correlator, motherboard and radio-board as well as the current calibration system.
 
 
 
@@ -19,7 +19,7 @@ Dr Tim Molteno is a Senior Lecturer in Physics at the University of Otago, New Z
   height="400px"
 />
 
-Dr Max Scheel  completed his PhD at Otago University on instrumentation & calibration of the first version of the 24-antenna TART (v2.0)  graduating in 2018. During that time Max was responsible for much of the TART imaging and operation code. Since then Max continues to make many contributions to the TART project. He is responsible for the new Web UI, as well as the TART map web application and the cloud storage archive in the AWS compute cloud. Max’s current position is as a platform engineer at  Shuttlerock. Prior to that he worked as a Data Engineer, and then Software Engineer also at Shuttlerock.
+Dr Max Scheel  completed his PhD at Otago University on instrumentation & calibration of the first version of the 24-antenna TART (v2.0)  graduating in 2018. During that time Max was responsible for much of the TART imaging and operation code. Since then Max continues to make many contributions to the TART project. He is responsible for the new Web UI, as well as the TART map web application and the cloud storage archive in the AWS compute cloud. Max’s current position is as a platform engineer at  Shuttlerock. Prior to that he worked as a Data Engineer, and before then Software Engineer also at Shuttlerock.
 
 ## Pat Suggate
 
