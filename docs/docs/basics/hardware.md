@@ -54,6 +54,6 @@ Some extimates are below not including and freight charges:
 
 ### Getting TART hardware
 
-TART hardware development kits will soon be available for purchase from the Electronics Research Foundation.
+TART hardware [development kits](/docs/install/electronics) are available for purchase from the Electronics Research Foundation.
 * Electronics including correlator, single board computer and antennas, will be ~EUR 3000 preassembled and tested.
 * A flat-pack CNC machined antenna array mounting kit will also be made available. Check out the [TART discourse](https://discourse.tart.nz) for details.
