@@ -16,7 +16,7 @@ In this mode, the correlator will store raw data. This data is transferred to th
 
 ## Diagnose Mode
 
-This is a debugging mode that helps locate problems with the TART. More details on using diagnose mode can be found in the [Diagnose Mode](/docs/install/debugging-antennas) section.
+This is a debugging mode that helps locate problems with the TART. More details on using diagnose mode can be found in the [Diagnose Mode](/docs/install/debugging-antennas) section. Remember to change mode back to Visibility before logging out of the TART.
 
 
 ## Changing modes

@@ -80,9 +80,9 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Introduction",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "News", position: "left" },
           {
             type: "localeDropdown",
             position: "right",
