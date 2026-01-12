@@ -28,6 +28,10 @@ To switch modes on a TART device, you will need the administrator password for y
 
 To switch modes through the web interface, navigate to the tart web api, enter your password in the Mode panel and select the desired mode from the dropdown menu.
 
+|  | 
+| --- |
+| ![Enter password](./password-dialog.png) |
+| The location of the password dialog in the web interface. To display this dialog click the three dashes at the top left of the screen. |
 
 ### Command Line
 

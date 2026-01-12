@@ -13,7 +13,14 @@ Your first port of call is to check the telescope web app, specifically the gain
 
 ### Check the radio data
 
-Put the telescope into [Diagnose Mode](/docs/basics/operating-modes.md#diagnose-mode). Then check the spectrum for the antenna you suspect is faulty. If the signal is zero then the problem is likely (but not necessarily) to be the radio rather than the antenna. If the spectrum looks normal, then the problem is likely to be the antenna.
+Put the telescope into [Diagnose Mode](/docs/basics/operating-modes.md#diagnose-mode). Remember to wait a while before the TART can calculate all the spectra.
+
+|  | 
+| --- |
+| ![TART Spectra](./diagnose-spectra.png) |
+| The Diagnose display showing spectra from each antenna.  |
+
+Then check the spectrum for the antenna you suspect is faulty. If the signal is zero then the problem is likely (but not necessarily) to be the radio rather than the antenna. If the spectrum looks normal, then the problem is likely to be the antenna.
 
 ### Check the visibilities
 
