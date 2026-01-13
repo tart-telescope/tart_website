@@ -1,0 +1,156 @@
+# Tart Tools
+
+The tart-tools python package [tart_tools](https://github.com/tmolteno/tart_modules) provides a command line interface manage a TART telescope using the restful-api.
+
+Here is the documentation for the `tart-tools` package, formatted in clean, organized Markdown.
+
+---
+
+# TART Tools Package Documentation
+
+The `tart-tools` package (found in the [tmolteno/tart_modules](https://github.com/tmolteno/tart_modules) repository) provides a suite of command-line interface (CLI) utilities for interacting with the **Transient Array Radio Telescope (TART)**.
+
+## Primary Scripts
+
+### `tart_download_data`
+
+Downloads raw visibility data from a TART telescope's API.
+
+* **Purpose:** Fetches visibility data files (JSON or HDF5) from a specific telescope base station.
+* **Key Features:**
+* Fetches the latest  data files using the `--n` flag.
+* Verifies data integrity using checksums.
+* Supports custom API endpoints for different arrays (e.g., Dunedin or Mauritius).
+
+
+
+### `tart_get_archive_data`
+
+Accesses historical data stored in the cloud.
+
+* **Purpose:** Queries and downloads TART data from the AWS S3 public archive.
+* **Key Features:**
+* Efficiently handles batch downloads of historical observations.
+* Interfaces with the `archive_handler` to manage S3 bucket interactions.
+
+
+
+### `tart_calibrate`
+
+The core calibration utility for the radio array.
+
+* **Purpose:** Processes visibility data to calculate antenna gains and phase corrections.
+* **Key Features:**
+* Adjusts complex gains to "focus" the telescope.
+* Required for converting raw data into clear radio images.
+
+
+
+### `tart_upload_antenna_positions` / `tart_download_antenna_positions`
+
+Manages the physical geometry metadata of the array.
+
+* **Purpose:** Handles the  coordinates of each antenna.
+* **Usage:** Used during initial setup or after maintenance.
+* **Note:** `tart_upload_antenna_positions` includes a `--rotate` flag to align the coordinate system during calibration.
+
+### `tart_download_gains` / `tart_calibration_data`
+
+Handles antenna gain parameters.
+
+* **Purpose:** Retrieves current complex gain solutions from the telescope or a local file.
+* **Usage:** Used to monitor antenna health or apply pre-calculated calibration to new datasets.
+
+### `tart_set_mode`
+
+A control utility for hardware and server states.
+
+* **Purpose:** Changes the operational mode (e.g., idle, observing, or test modes).
+* **Security:** Typically requires an authorized API JWT token.
+
+### `tart_h5_to_json`
+
+Data format conversion utility.
+
+* **Purpose:** Converts HDF5 visibility files into JSON format.
+* **Compatibility:** Ensures data is compatible with web visualizers or `tart2ms` (MeasurementSet) workflows.
+
+---
+
+## Technical Reference
+
+### Common Command-Line Arguments
+
+Most scripts in this package share a standard set of arguments:
+
+| Argument | Description |
+| --- | --- |
+| `--api` | The URL of the telescope API (default: Dunedin TART). |
+| `--user` | Username for authorized API requests. |
+| `--password` | Password for authorized API requests. |
+| `--n` | The number of files or data points to process. |
+
+### Installation
+
+The tools can be installed via `pip`. Once installed, they are available as system-wide commands.
+
+```bash
+pip install tart-tools
+
+```
+
+---
+To help you get started, here is a practical workflow showing how to use these tools in sequence. This example demonstrates how to download raw data, calibrate it, and prepare it for imaging.
+
+### Example Workflow: Data Acquisition to Calibration
+
+This workflow assumes you are working with the Dunedin TART array.
+
+#### 1. Download Recent Data
+
+First, use `tart_download_data` to fetch the 5 most recent visibility observations.
+
+```bash
+tart_download_data --n 5 --api https://api.tart.elec.ac.nz
+
+```
+
+#### 2. Verify Antenna Positions
+
+Before calibrating, ensure your local geometry matches the telescope's current configuration.
+
+```bash
+tart_download_antenna_positions --api https://api.tart.elec.ac.nz --output positions.json
+
+```
+
+#### 3. Calibrate the Data
+
+Run the calibration script on one of the downloaded JSON files to calculate the complex gains.
+
+```bash
+tart_calibrate --data data_file_001.json --positions positions.json --output gains.json
+
+```
+
+---
+
+### Understanding the TART Data Flow
+
+The diagram below illustrates how these tools interact with the Telescope hardware, the API, and the data storage layers.
+
+### Advanced Usage: Historical Analysis
+
+If you want to perform a long-term study (e.g., looking at how gains change over a month), you would use the archive tool instead of the live API:
+
+```bash
+# Search for and download data from a specific date range in 2024
+tart_get_archive_data --date 2024-06-15 --api https://api.tart.elec.ac.nz
+
+```
+
+---
+
+### Key Troubleshooting Tips
+
+* **Authentication:** If you receive a `401 Unauthorized` error when using `tart_set_mode` or uploading positions, ensure you are passing your credentials: `--password <password>`.

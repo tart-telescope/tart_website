@@ -35,11 +35,10 @@ To switch modes through the web interface, navigate to the tart web api, enter y
 
 ### Command Line
 
-The tart-tools package provides a command line interface to change modes. To change modes, run the following command:
+The [tart-tools](/docs/install/tart-tools) package provides a command line interface to change modes. To change modes, run the following command:
 
 
 ```
-tart_set_mode --help
 usage: tart_set_mode [-h] [--api API] [--pw PW] [--raw | --vis | --mode MODE]
 
 Change telescope mode
