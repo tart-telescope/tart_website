@@ -23,10 +23,35 @@ Downloads raw visibility data from a TART telescope's API.
 * Supports custom API endpoints for different arrays (e.g., Dunedin or Mauritius).
 
 
+```
+usage: tart_download_data [-h] [--api API] [--pw PW] [--dir DIR] [--n N] [--raw] [--vis] [--file FILE]
+
+Download data from the telescope
+
+options:
+  -h, --help   show this help message and exit
+  --api API    Telescope API server URL. (default: https://tart.elec.ac.nz/signal)
+  --pw PW      API password (default: password) 
+  --dir DIR    local directory to download (default: .)
+  --n N        Stop after downloading this many files. (default: -1)
+  --raw        Download Raw Data in HDF format (default: False)
+  --vis        Download Visibility Data in HDF format (default: False)
+  --file FILE  Set the name of the output file (default: None)
+```
+
+Example:
+```
+tart_download_data --api https://api.elec.ac.nz/tart/mu-udm --vis --n 1
+2026-01-24 11:36:37,362 - root - INFO - Downloading Data from https://api.elec.ac.nz/tart/mu-udm
+2026-01-24 11:36:45,722 - root - INFO - Download_file(https://api.elec.ac.nz/tart/mu-udm/vis/vis_2026-01-23_22_36_35.539081.hdf, 4383520778a3e595674dc6789880510d7e43483bdf442e60d7b940f12302e344) -> ./vis_2026-01-23_22_36_35.539081.hdf
+
+```
+This will download the most recent visibility data file from the specified tart.
 
 ### `tart_get_archive_data`
 
 Accesses historical data stored in the cloud.
+
 
 * **Purpose:** Queries and downloads TART data from the AWS S3 public archive.
 * **Key Features:**
@@ -34,16 +59,27 @@ Accesses historical data stored in the cloud.
 * Interfaces with the `archive_handler` to manage S3 bucket interactions.
 
 
+```
+usage: tart_get_archive_data [-h] [--dir DIR] [--name NAME] [--target TARGET] [--n N] [--start START] [--duration DURATION]
 
-### `tart_calibrate`
+Get data from the TART s3 bucket
 
-The core calibration utility for the radio array.
+options:
+  -h, --help           show this help message and exit
+  --dir DIR            Output directory (default: .)
+  --name NAME          Output file name prefix - eg 'out_' would produce files 'out_1.hdf', out_2.hdf ... (default: None)
+  --target TARGET      Telescope name in s3 bucket. (default: signal)
+  --n N                Number of HDF vis files. (-1 means all) (default: -1)
+  --start START        Start time (negative means offset from now). (default: -60)
+  --duration DURATION  Number of minutes to sample for (default: 0)
+```
 
-* **Purpose:** Processes visibility data to calculate antenna gains and phase corrections.
-* **Key Features:**
-* Adjusts complex gains to "focus" the telescope.
-* Required for converting raw data into clear radio images.
+Example: The following will download the last 60 minutes of data from the target mu-udm.
 
+```
+tart_get_archive_data --name my_data --target mu-udm --start -60 --duration 60
+
+```
 
 
 ### `tart_upload_antenna_positions` / `tart_download_antenna_positions`
@@ -54,12 +90,21 @@ Manages the physical geometry metadata of the array.
 * **Usage:** Used during initial setup or after maintenance.
 * **Note:** `tart_upload_antenna_positions` includes a `--rotate` flag to align the coordinate system during calibration.
 
+
 ### `tart_download_gains` / `tart_calibration_data`
 
 Handles antenna gain parameters.
 
-* **Purpose:** Retrieves current complex gain solutions from the telescope or a local file.
-* **Usage:** Used to monitor antenna health or apply pre-calculated calibration to new datasets.
+```
+usage: tart_download_gains [-h] [--api API] [--file FILE]
+
+Save gains from api to local file
+
+options:
+  -h, --help   show this help message and exit
+  --api API    Telescope API server URL. (eg: https://api.elec.ac.nz/tart/mu-udm)
+  --file FILE  local file to dump gains (default: gains.json)
+```
 
 ### `tart_set_mode`
 
@@ -85,7 +130,7 @@ Most scripts in this package share a standard set of arguments:
 
 | Argument | Description |
 | --- | --- |
-| `--api` | The URL of the telescope API (default: Dunedin TART). |
+| `--api` | The URL of the telescope API (eg: https://api.elec.ac.nz/tart/<tart-name>). |
 | `--user` | Username for authorized API requests. |
 | `--password` | Password for authorized API requests. |
 | `--n` | The number of files or data points to process. |
@@ -111,7 +156,8 @@ This workflow assumes you are working with the Dunedin TART array.
 First, use `tart_download_data` to fetch the 5 most recent visibility observations.
 
 ```bash
-tart_download_data --n 5 --api https://api.tart.elec.ac.nz
+tart_download_data --api https://api.elec.ac.nz/tart/mu-udm --vis --n 1
+
 
 ```
 
@@ -120,18 +166,10 @@ tart_download_data --n 5 --api https://api.tart.elec.ac.nz
 Before calibrating, ensure your local geometry matches the telescope's current configuration.
 
 ```bash
-tart_download_antenna_positions --api https://api.tart.elec.ac.nz --output positions.json
+tart_download_antenna_positions --api https://api.elec.ac.nz/tart/mu-udm --output positions.json
 
 ```
 
-#### 3. Calibrate the Data
-
-Run the calibration script on one of the downloaded JSON files to calculate the complex gains.
-
-```bash
-tart_calibrate --data data_file_001.json --positions positions.json --output gains.json
-
-```
 
 ---
 

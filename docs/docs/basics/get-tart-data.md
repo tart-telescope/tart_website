@@ -22,7 +22,7 @@ This will download the latest visibilties into a file called test.json
 
 ## Using the tart_tools package
 
-You can install the tart_tools python package which will give you some command line tools to work with the TART telescope.
+You can install the [tart_tools](/docs/install/tart-tools) python package which will give you some command line tools to work with the TART telescope.
 
 ```pip3 install tart_tools```
 
