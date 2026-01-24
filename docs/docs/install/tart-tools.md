@@ -73,6 +73,7 @@ options:
   --start START        Start time (negative means offset from now). (default: -60)
   --duration DURATION  Number of minutes to sample for (default: 0)
 ```
+The start parameter can either be an [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) formatted date and time (with offset "2026-01-20T01:30:08+00:00")
 
 Example: The following will download the last 60 minutes of data from the target mu-udm.
 
@@ -130,7 +131,7 @@ Most scripts in this package share a standard set of arguments:
 
 | Argument | Description |
 | --- | --- |
-| `--api` | The URL of the telescope API (eg: https://api.elec.ac.nz/tart/<tart-name>). |
+| `--api` | The URL of the telescope API (eg: https://api.elec.ac.nz/tart/my-tart). |
 | `--user` | Username for authorized API requests. |
 | `--password` | Password for authorized API requests. |
 | `--n` | The number of files or data points to process. |
@@ -183,7 +184,8 @@ If you want to perform a long-term study (e.g., looking at how gains change over
 
 ```bash
 # Search for and download data from a specific date range in 2024
-tart_get_archive_data --date 2024-06-15 --api https://api.tart.elec.ac.nz
+tart_get_archive_data --target mu-udm --start 2026-01-20T01:30:08+00:00 --duration 60
+
 
 ```
 

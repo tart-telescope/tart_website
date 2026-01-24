@@ -54,6 +54,8 @@ Visibility and Raw data can also be downloaded from the S3 Cache (most recent 30
 
 ### Fetch via MinIO
 
+Here is some python code to fetch directly. It is easier to use the tart_download_archive_data command from the  [tart_tools](/docs/install/tart-tools) python package
+
 ```python
 import os
 from tqdm import tqdm
