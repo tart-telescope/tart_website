@@ -12,6 +12,14 @@ This will request the ```imaing/vis``` API endpoint, and the returned data will 
 
 Try this in your browser by [clicking here](https://api.elec.ac.nz/tart/mu-udm/api/v1/imaging/vis)
 
+## Finding the API endpoint of a TART
+
+The easiest way to find the API endpoint of a TART is to consult the [TART map](https://map.elec.ac.nz). Then click on the TART and it will show you the host.
+
+![TART API endpoint](./finding_host_from_map.png)
+
+In this case the host for the Bangladesh TART is bd-iub. This means that the API URL would be https://api.elec.ac.nz/tart/bd-iub/.
+
 ## API documentation
 
 API documentation is available here: https://api.elec.ac.nz/docs/

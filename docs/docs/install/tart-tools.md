@@ -1,12 +1,5 @@
-# Tart Tools
-
-The tart-tools python package [tart_tools](https://github.com/tmolteno/tart_modules) provides a command line interface manage a TART telescope using the restful-api.
-
-Here is the documentation for the `tart-tools` package, formatted in clean, organized Markdown.
-
----
-
 # TART Tools Package Documentation
+
 
 The `tart-tools` package (found in the [tmolteno/tart_modules](https://github.com/tmolteno/tart_modules) repository) provides a suite of command-line interface (CLI) utilities for interacting with the **Transient Array Radio Telescope (TART)**.
 
@@ -14,7 +7,7 @@ The `tart-tools` package (found in the [tmolteno/tart_modules](https://github.co
 
 ### `tart_download_data`
 
-Downloads raw visibility data from a TART telescope's API.
+Downloads raw visibility data from a TART telescope's [API](/docs/basics/tart-api).
 
 * **Purpose:** Fetches visibility data files (JSON or HDF5) from a specific telescope base station.
 * **Key Features:**
@@ -30,7 +23,7 @@ Download data from the telescope
 
 options:
   -h, --help   show this help message and exit
-  --api API    Telescope API server URL. (default: https://tart.elec.ac.nz/signal)
+  --api API    Telescope API server URL. (e.g.: https://api.elec.ac.nz/tart/mu-udm)
   --pw PW      API password (default: password) 
   --dir DIR    local directory to download (default: .)
   --n N        Stop after downloading this many files. (default: -1)

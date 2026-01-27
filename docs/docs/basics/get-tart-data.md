@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Getting data from TART
 
-Each telescope can be queried for data using the telescope API (API)
+Each telescope can be queried for data using the telescope [API](/docs/basics/tart-api) ([API](/docs/basics/tart-api))
 
 :::tip Authentication
 
@@ -14,7 +14,7 @@ One doesn't need a login to capture data from a TART telescope. All data is publ
 
 ## Using the API directly
 
- The authentication is only need for API requests that modify the telescope properties (like uploading calibration gains and phases).THe API for the telescope is documented online (https://api.elec.ac.nz/docs/) and shows the restful API calls that can be made.
+ The authentication is only need for [API](/docs/basics/tart-api) requests that modify the telescope properties (like uploading calibration gains and phases).The [API](/docs/basics/tart-api) for the telescope is documented online (https://api.elec.ac.nz/docs/) and shows the restful API calls that can be made.
 ```
     wget -O test.json  https://api.elec.ac.nz/tart/mu-udm/api/v1/imaging/vis
 ```

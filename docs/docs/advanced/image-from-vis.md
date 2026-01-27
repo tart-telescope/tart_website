@@ -25,7 +25,7 @@ Each TART has a [public api](/docs/basics/tart-api), from which the required dat
 First we create a little helper function to get an api response in JSON form. We also check that the telescope
 is in the correct mode for collecting visibility data...
 
-JSON data is just text. So you can have a look at the data in your browser for each API call. The little helper function below
+JSON data is just text. So you can have a look at the data in your browser for each [API](/docs/basics/tart-api) call. The little helper function below
 will print out the URL so you can have a look at the data yourself.
 
 * [Visibilities](https://api.elec.ac.nz/tart/mu-udm/api/v1/imaging/vis)

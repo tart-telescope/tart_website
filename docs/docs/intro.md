@@ -28,7 +28,7 @@ All of the data from the telescope is processed on the basestation and made avai
 
 ## Using the tart tools
 
-There are some command line tools available as part of the [tart_tools python package](https://github.com/tmolteno/tart_modules). These command line tools let you do things like downloading data, creating images e.t.c.
+There are some command line tools available as part of the [tart_tools python package](./install/tart-tools). These command line tools let you do things like downloading data, creating images e.t.c.
 
 
 ## Creating Images
