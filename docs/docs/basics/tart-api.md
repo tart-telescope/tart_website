@@ -31,4 +31,9 @@ There is an online API for getting source positions in the GPS sky. It is docume
 
 Here is a [link to the current objects above signal hill](https://tart.elec.ac.nz/catalog/catalog?lat=-45.85&lon=170.54)
 
-The github repository for the source catalogue is (https://github.com/tart-telscope/catalogue).
+The github repository for the source catalogue is (https://github.com/tart-telescope/catalogue).
+
+Dates in the API should have the time zone specified
+```
+2025-08-20T13:20:10.6+0000
+```
