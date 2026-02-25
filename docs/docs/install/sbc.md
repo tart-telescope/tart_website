@@ -47,7 +47,7 @@ The code [here](https://github.com/tart-telescope/sbc_code/), is usually install
 
 ## Local Mode (for testing)
 
-After the sbc_code is installed on your raspberry pi. Then
+After the sbc_code is installed on your raspberry pi. Then add in the configuration files as outlined in the sbc_code docs, and
 
 ```
     docker compose -f docker-compose-local.yml up
