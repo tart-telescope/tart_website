@@ -27,12 +27,41 @@ The following packages are needed to continue with the install. Mostly this is d
 
 ### Docker
 
-The TART operating software is based around docker.
+The TART operating software is based around docker. We recommend using the official docker distribution.
 
 ```
     sudo apt install curl docker.io docker-compose git
     sudo usermod -a -G tart docker
 ```
+
+## Install the TART operating software.
+
+The code [here](https://github.com/tart-telescope/sbc_code/), is usually installed via SSH remotely. However the following can be done if that is not an option.
+
+```
+    git clone git+https://github.com/tart-telescope/sbc_code
+    cd sbc_code/software
+    make install TART=~/code
+```
+
+
+## Local Mode (for testing)
+
+After the sbc_code is installed on your raspberry pi. Then
+
+```
+    docker compose -f docker-compose-local.yml up
+```    
+
+This will launch a local-mode telescope:
+* Connect to http://localhost:5000/docs to get and test the API docs. 
+* Connect to http://localhost:80 to see the web interface.
+
+
+## Cloud Installation
+
+Once your TART is tested using local mode. Then the TART is ready to connect to the global TART network. This involves working with the TART team.
+
 
 ### TailScale
 
@@ -47,19 +76,5 @@ The TART single board computers are connected to a global network. This connecti
 Then contact the TART team for connection to the TART network.
 
 
-## Install the TART operating software.
 
-The code [here](https://github.com/tart-telescope/sbc_code/), is usually installed via SSH remotely. However the following can be done if that is not an option.
-
-```
-    git clone git+https://github.com/tart-telescope/sbc_code
-    cd sbc_code/software
-    make install TART=~/code
-```
-
-## Connecting to your telescope locally
-
-If you telescope has an IP address on your network (i.e., x.x.x.x) then you can connect directly to it via a web browser
-
-```http://x.x.x.x:8000```
 
