@@ -8,7 +8,8 @@ Here is a guide to debugging network connectivity issues with a TART. If you can
 
 ## Ethernet and WiFi
 
-The TART uses either Ethernet, or WiFi connectivity. By default TART expects to use DHCP to configure the network interface. If networking is not working, then try the following steps:
+The TART uses either Ethernet, or WiFi connectivity. By default TART expects to use DHCP to configure the network interface. If networking is not working, then try the following tests:
+
 
 ### Test 1: WiFi Connection
 
@@ -17,6 +18,11 @@ Create a hotspot on your phone called "elec-research" with the password "ragamuf
 Then monitor the hotspot to see what devices are connected. The TART should connect to your hotspot. If it does connect then you should be able to make an [ssh connection](https://aoterodelaroza.github.io/coursenotes/remote_connection/) to the TART from a laptop connected to the same mobile hotspot. The default username is and password should be written on the TART box. If you can't find these, please [get in touch](/docs/basics/get-in-touch). 
 
 Once connected, you should be able to see a terminal session.  
+
+|  | 
+| --- |
+| ![TART Spectra](./terminal-command.png) |
+| The results of a succesful test of whether docker is running on the TART.  |
 
 
 ### Test 2: Connect External Monitor
