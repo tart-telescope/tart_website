@@ -39,5 +39,6 @@ Further proposal details are contained in the [PDF of Call Details](/files/TART-
 ## Links
 
 * [Full Call details (PDF)](/files/TART-Breakthrough-CFP.pdf)
+* [Slides from AfAS 2026 call announcement](/files/Molteno_TART_CFP.pdf)
 * [TART website](https://tart.elec.ac.nz)
 * [TART GitHub](https://github.com/tart-telescope)
