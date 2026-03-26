@@ -26,6 +26,11 @@ You can install the [tart_tools](/docs/install/tart-tools) python package which 
 
 ```pip3 install tart_tools```
 
+This contains two tools for getting TART data. 
+
+* [tart_download_data](/docs/install/tart-tools#tart_download_data) gets data directly from the TART itself. 
+* [tart_get_archive_data](/docs/install/tart-tools#tart_get_archive_data) gets data from the TART data archive.
+
 ## Creating a measurement set
 
 You can install the tart2ms python package which will give you some command line tools to work with the measurement sets 
@@ -44,10 +49,9 @@ You can create an image using the [disko](/docs/advanced/disko) package
 
 ```disko --ms signal1.ms --SVG --fov 170deg --res 1deg --lasso --alpha 0.05 --healpix```
 
-## From S3 bucket
+## Use Python to get data from TART archive
 
-Visibility and Raw data can also be downloaded from the S3 Cache (most recent 30days only).
-
+The easiest way to do this is using [tart_get_archive_data](/docs/install/tart-tools#tart_get_archive_data). However if you want to do this from within some other code, visibility and Raw data can also be downloaded from the TART archive.
 
 ### Install requirements
 ```pip3 install minio tqdm```
