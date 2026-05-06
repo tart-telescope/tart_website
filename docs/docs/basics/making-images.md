@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Making Images
 
+For a basic introduction to radio astronomy we have a video (https://youtu.be/_58fSR6MwFY?si=bwtWe7UOL6wurAXd).
+
 Creating images in TART is requires three things
 
 * Some [calibrated](/docs/advanced/calibration) TART data
