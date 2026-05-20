@@ -10,7 +10,7 @@ toc_max_heading_level: 5
 ---
 
 
-The Electronics Research Foundation and the TART community are delighted to announce financial support from the [Breakthrough Listen](https://breakthroughlisten.physics.ox.ac.uk/home) programme to extend the TART telescope network in Africa, in partnership with [SARAO](https://sarao.ac.za), DARA and [Rhodes University](https://ru.ac.za). Up to five additional TART deployments and installation workshops across Africa will be funded by this call.
+The TART community are delighted to announce financial support from the [Breakthrough Listen](https://breakthroughlisten.physics.ox.ac.uk/home) programme to extend the TART telescope network in Africa, in partnership with [SARAO](https://sarao.ac.za), DARA and [Rhodes University](https://ru.ac.za). Up to five additional TART deployments and installation workshops across Africa will be funded by this call.
 
 The call is open to African institutions or consortia interested in hosting a TART telescope. Hosts will be selected for funding based on their site readiness, sustainability, expected impact on Human Capacity Development in the country, and availability of co-funding.
 
