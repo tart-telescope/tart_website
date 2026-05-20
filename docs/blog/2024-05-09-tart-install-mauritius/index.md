@@ -42,7 +42,7 @@ We were delighted to find that the array was easily calibrated and now produces 
 
 ![TART Array Assembly](udm/tart_udm.jpg)
 
-This image was made using [these instructions](/docs/basics/making-images#using-command-line-tools-recommended).
+This image was made using [these instructions](/docs/basics/making-images).
 
 ## Acknowledgements
 

@@ -15,7 +15,13 @@ Creating images in TART is requires three things
 
 The easiest way to make images is to use the web interface. A public web interface is for each is available from the live map [here](https://map.elec.ac.nz).
 
-## Using command line tools (recommended)
+## Using tart_cargo and stimela (recommended)
+
+This is the most powerful way to process TART data. [Stimela](https://stimela.readthedocs.io/en/latest/) is a framework for radio astrononomical data processing, and there is a dedicated set of stimela cabs, called [tart_cargo](https://github.com/tart-telescope/tart_cargo) that package most of the TART tools and imaging techniques for use in stimela.
+
+There is a repository dedicated to this method of imaging (https://github.com/tart-telescope/radio-imaging). This repository contains several basic recipes that can be used as a basis for processing both raw data, or visibility data.
+
+## Using command line tools
 
 This requires the tart_tools, tart2ms and disko python packages ```pip install tart_tools tart2ms disko```,
 
