@@ -10,11 +10,11 @@ toc_max_heading_level: 5
 ---
 
 
-The TART community are delighted to announce the results of the [TART Africa Call for Proposals](/blog/breakthrough-africa-programme) -- the [Breakthrough Listen](https://breakthroughlisten.physics.ox.ac.uk/home) programme to extend the TART telescope network in Africa, in partnership with [SARAO](https://sarao.ac.za), DARA and [Rhodes University](https://ru.ac.za). After proposal review, six new TART deployments and installation workshops across Africa were funded.
+The TART community are delighted to announce the results of the [TART Africa Call for Proposals](/blog/breakthrough-africa-programme) -- the [Breakthrough Listen](https://breakthroughlisten.physics.ox.ac.uk/home) programme to extend the TART telescope network in Africa, in partnership with [SARAO](https://sarao.ac.za), DARA and [Rhodes University](https://ru.ac.za). After proposal review, five new TART deployments and installation workshops across Africa were funded.
 
 <!-- truncate -->
 
-## Successful Applicants
+<!--## Successful Applicants
 
 The succesful applicants for hosting a TART telescope through the Breakthrough Listen TART Africa Programme were:
 
@@ -24,8 +24,7 @@ The succesful applicants for hosting a TART telescope through the Breakthrough L
 | Ethiopia |  Space Science and Geospatial Institute (SSGI), Addis Ababa | Entoto Observatory, Ethiopia | Dr Biruk Abrham |
 | Ethiopia |  Space Science Society (ESSS), and Addis Ababa University (AAU) | ESSS headquarters rooftop, Addis Ababa | Dr Ephrem Teshale Bekele (AAU), Lealem Kinfe Alula (ESSS) |
 | Malawi   |  University of Namibia (UNAM) | UNIMA campus in Zomba, Malawi | Dr Bernard M’mame (UNIMA) |
-| Namibia  |  University of Malawi (UNIMA) | UNAM Campus, Windhoek, Namibia | Shain Mukungu (UNAM) |
-| Zimbabwe |  Zimbabwean Astronomical Society (ZAS) and the National University of Science and Technology (NUST) | NUST Campus, Bulawayo, Zimbabwe | Thobekile Ngwane (SAAO) |
+| Zimbabwe |  Zimbabwean Astronomical Society (ZAS) and the National University of Science and Technology (NUST) | NUST Campus, Bulawayo, Zimbabwe | Thobekile Ngwane (SAAO) |-->
     
 Further details will be released as planning progresses.
 

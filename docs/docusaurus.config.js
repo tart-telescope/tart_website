@@ -33,6 +33,22 @@ const config = {
     locales: ["en", "fr", "pt"],
   },
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["en", "fr", "pt"],
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: false,
+        docsRouteBasePath: "/",
+        blogRouteBasePath: "/blog",
+      }),
+    ],
+  ],
+
   stylesheets: [
     {
       href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
