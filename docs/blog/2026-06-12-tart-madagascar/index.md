@@ -11,7 +11,6 @@ toc_max_heading_level: 5
 
 # TART successfully deployed in Madagascar
 
-The Universite d'Antananarivo held a five-day conference and workshop, that resulted in the installation of a Transient Array Radio Telescope (TART), the first instrument of its kind in Madagascar.
 
 A TART installation [workshop](/docs/install/workshop) was held at Universite d'Antananarivo in Madagascar between June 8th and June 12th 2026. The Transient Array Radio Telescope (TART) is an open source radio telescope. Originally developed by Dr Tim Molteno, and students at the University of Otago's Department of Physics. The TART is a radio-telescope with the capability to observe the entire sky continuously and optimized to detect satellites, near-earth objects and transient events including high-energy cosmic rays. The telescope is also designed to serve as a platform for the development of new imaging algorithms.
 
