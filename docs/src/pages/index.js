@@ -7,6 +7,7 @@ import Layout from '@theme/Layout';
 import Translate, {translate} from '@docusaurus/Translate';
 
 import styles from './index.module.css';
+import recentBlogPosts from '@site/src/data/recentPosts.json';
 
 
 function HomepageHeader() {
@@ -59,34 +60,8 @@ function MapPreview() {
 }
 
 
-const recentBlogPosts = [
-  {
-    id: 'breakthrough-cfp-2026-results',
-    title: 'Breakthrough Listen Africa Programme 2026. Funded Proposals',
-    date: '2026-05-15',
-    description:
-      'Six new TART deployments and installation workshops funded across Africa.',
-    permalink: '/blog/breakthrough-cfp-2026-results',
-  },
-  {
-    id: 'breakthrough-africa-programme',
-    title: 'Breakthrough Listen Africa Programme 2026. Call for Proposals',
-    date: '2026-03-23',
-    description:
-      'Call for proposals to host new TART telescopes across Africa, in partnership with SARAO.',
-    permalink: '/blog/breakthrough-africa-programme',
-  },
-  {
-    id: 'tart-bangladesh',
-    title: 'TART Bangladesh, November 2025',
-    date: '2025-11-20',
-    description:
-      'First TART telescope deployed in Bangladesh at IUB, opening new opportunities in South Asia.',
-    permalink: '/blog/tart-bangladesh',
-  },
-];
-
 function RecentBlogPosts() {
+  const recentPosts = recentBlogPosts.slice(0, 3);
   return (
     <section className={styles.recentBlog}>
       <div className="container">
@@ -94,7 +69,7 @@ function RecentBlogPosts() {
           <Translate>Recent News</Translate>
         </h2>
         <div className="row">
-          {recentBlogPosts.map((post) => (
+          {recentPosts.map((post) => (
             <div key={post.id} className="col col--4 margin-bottom--lg">
               <div className={clsx('card', styles.blogCard)}>
                 <div className="card__body">
