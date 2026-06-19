@@ -129,10 +129,10 @@ const config = {
                 label: "Telegram Group Chat",
                 href: "https://t.me/+u-2yzql__ggwYzAz",
               },
-              {
-                label: "Community Forum",
-                href: "https://discourse.tart.nz",
-              },
+              // {
+              //   label: "Community Forum",
+              //   href: "https://discourse.tart.nz",
+              // },
               {
                 label: "Bi-Weekly Zoom",
                 href: "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MmF0amNoMzdnaXRxanU0aTY4ZWd0Zm1ydGhfMjAyNTEyMTdUMDgwMDAwWiBjXzVjZTk3YjIyNGE0ODI0MGMxYzVlYjYyMjc1ZGVhN2M3NzViZjRlY2E5YTBjNzk1OTNhN2E1OWUxYzQ4NWY1Y2NAZw&tmsrc=c_5ce97b224a48240c1c5eb62275dea7c775bf4eca9a0c79593a7a59e1c485f5cc%40group.calendar.google.com&scp=ALL",
