@@ -8,9 +8,14 @@ Developed in the https://github.com/tart-telescope/radio_module repository. The 
 
 ### Radio Module
 
-![TART-3 Radio Module](./tart3_radio_module.jpg)
+![TART Radio Module](./tart3_radio_module.jpg)
 
-These radio modules each contain four receivers, and are connected to active antennas using a SMA connector.
+These radio modules each contain four receivers, and are connected to active antennas using a SMA connector. The radio module is based around the [MAX2769 integrated GNSS receiver](https://www.analog.com/media/en/technical-documentation/data-sheets/max2769.pdf), the schematic is shown below. 
+
+|  |
+| --- |
+| ![TART Radio Schematic](./tart_radio_schematic.png) |
+| Schmatic of the TART radio front end. In the signal chain, there is also a low noise amplifier integrated into the antenna to overcome cable loss.  |
 
 ### Motherboard
 
