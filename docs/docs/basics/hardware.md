@@ -35,6 +35,20 @@ Here is a rendering of a potential 5 arm layout, optimized to provide effective 
 ![TART-3 five arm rendering](./optimized_array.png)
 ![TART-3 five arm](./uv_coverage.png)
 
+### Building your own array
+
+There is a github repository (https://github.com/tart-telescope/array-structure) with DXF files for building the current antenna array design. The cam_files directory contains files to be CNC cut from sheets of marine grade experior plywood.
+
+* [tart_array_4mm_sheet_1.dxf](https://github.com/tart-telescope/array-structure/blob/main/cam-files/tart_array_4mm_sheet_1.dxf). To be cut from a full sheet 2400x1200mm 4-6mm thickness plywood.
+* [tart_array_4mm_sheet_2.dxf](https://github.com/tart-telescope/array-structure/blob/main/cam-files/tart_array_4mm_sheet_1.dxf). To be cut from a full sheet 2400x1200mm 4-6mm thickness plywood.
+* [tart_array_9mm.dxf](https://github.com/tart-telescope/array-structure/blob/main/cam-files/tart_array_9mm.dxf). To be cut from a full sheet 2400x1200mm 9-12mm thickness plywood.
+
+These three sheets can either be laser cut, or water-jet cut (these two options are unlikely to move during cutting). On each sheet is a 100mm x 100mm square (marked as such) that can be used as a reference for dimensions by the workshop doing the cutting.
+
+The supports for the array-structure are often built from wooden poles. Alternatively a truss-tube structure has been developed by IUB which is truly wonderful.
+
+
+
 ## Changes in TART-3
 
 TART-2 consisted of 4 radio hubs with 6 recievers on each hub. These connected via Cat-6 UTP cable to a central basestation.
